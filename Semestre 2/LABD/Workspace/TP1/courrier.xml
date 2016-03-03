@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- exemple de fichier xml -->
+<lettre>
+  <en-tete date="16 janvier 2015">
+    <expediteur>
+    	yves.roos@univ-lille1.fr
+    </expediteur>
+    <destinataire>
+      philippe.marquet@univ-lille1.fr
+    </destinataire>
+    <objet>LABD</objet>
+  </en-tete>
+  <salutation>Philippe</salutation>
+  <corps>
+    <para>
+      au fait, peux-tu me rappeler quand commence LABD ?
+    </para>
+    <para>Merci.</para>
+  </corps>
+  <signature>Yves</signature>
+</lettre>

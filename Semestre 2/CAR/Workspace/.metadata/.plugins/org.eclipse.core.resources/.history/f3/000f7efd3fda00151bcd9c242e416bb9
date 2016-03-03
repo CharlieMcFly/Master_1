@@ -1,0 +1,38 @@
+package Strategy;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import Exception.FTPRequestAccessException;
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestCDUP implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+		
+		if(!ftp.getClient().canRead()){
+			ftp.getWriter().println(550 + " access denied");
+    		throw new FTPRequestDroitException();
+		}
+
+		String cdup = "";
+		Path p = Paths.get(ftp.getPathname());
+		for (int i = 0; i < p.getNameCount()-1; i++) {
+			cdup = cdup  + "/"  + p.getName(i);
+		}
+		System.out.println(cdup);
+		if(cdup.startsWith(ftp.getRacine())){
+			ftp.setPathname(cdup);
+			ftp.getWriter().println(250 + " CDUP ok");	
+		}
+		else{
+			ftp.setPathname(ftp.getRacine());
+			ftp.getWriter().println(550 + " access denied");
+		}		
+	}
+
+
+
+}

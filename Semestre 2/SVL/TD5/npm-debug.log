@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'cordova1' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'cordova1', null ]
+6 verbose cache add name=undefined spec="cordova1" args=["cordova1",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'cordova1',
+7 verbose parsed url   path: 'cordova1',
+7 verbose parsed url   href: 'cordova1' }
+8 silly lockFile 3ed73d65-cordova1 cordova1
+9 verbose lock cordova1 /home/charlie/.npm/3ed73d65-cordova1.lock
+10 silly lockFile 3ed73d65-cordova1 cordova1
+11 silly lockFile 3ed73d65-cordova1 cordova1
+12 verbose addNamed [ 'cordova1', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile fdafcf1c-cordova1 cordova1@
+15 verbose lock cordova1@ /home/charlie/.npm/fdafcf1c-cordova1.lock
+16 silly addNameRange { name: 'cordova1', range: '*', hasData: false }
+17 verbose request where is /cordova1
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 1b8dc1784463d3b1
+20 verbose url raw /cordova1
+21 verbose url resolving [ 'https://registry.npmjs.org/', './cordova1' ]
+22 verbose url resolved https://registry.npmjs.org/cordova1
+23 verbose request where is https://registry.npmjs.org/cordova1
+24 info trying registry request attempt 1 at 18:12:07
+25 http GET https://registry.npmjs.org/cordova1
+26 http 404 https://registry.npmjs.org/cordova1
+27 silly registry.get cb [ 404,
+27 silly registry.get   { 'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '2',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 25 Feb 2016 17:12:08 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-fra1242-FRA',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1456420328.500921,VS0,VE106' } ]
+28 silly lockFile fdafcf1c-cordova1 cordova1@
+29 silly lockFile fdafcf1c-cordova1 cordova1@
+30 error 404 Not Found
+30 error 404
+30 error 404 'cordova1' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.19.0-49-generic
+32 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "cordova1"
+33 error cwd /home/charlie/Documents/Cours/Semestre 2/SVL/TD5
+34 error node -v v0.10.37
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]

@@ -1,0 +1,15 @@
+<!ELEMENT itineraire (depart, arrivee, date, heure, transport, preferences, vitesse, temps, etapes)>
+<!ELEMENT depart (#PCDATA)>
+<!ELEMENT arrivee (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT heure (#PCDATA)>
+<!ELEMENT transport (mode+)>
+<!ELEMENT mode (#PCDATA)>
+<!ELEMENT preferences (#PCDATA)>
+<!ELEMENT vitesse (#PCDATA)>
+<!ELEMENT temps (#PCDATA)>
+<!ELEMENT etapes (voyage+)>
+<!ELEMENT voyage (depart, arrivee)>
+<!ATTLIST depart heure CDATA #REQUIRED>
+<!ATTLIST arrivee heure CDATA #REQUIRED>
+<!ATTLIST voyage type (Pied|Bus|Métro|Car|Tram|Train) #REQUIRED> 

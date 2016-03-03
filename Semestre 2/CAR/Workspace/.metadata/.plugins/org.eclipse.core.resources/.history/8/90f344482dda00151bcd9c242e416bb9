@@ -1,0 +1,29 @@
+package Client;
+
+public class DroitClient {
+	
+	private boolean read, write;
+	
+	public DroitClient(){
+		this.read=true;
+		this.write=false;
+	}
+
+	public boolean isRead() {
+		return read;
+	}
+
+	public void setRead(boolean read) {
+		this.read = read;
+	}
+
+	public boolean isWrite() {
+		return write;
+	}
+
+	public void setWrite(boolean write) {
+		this.write = write;
+	}
+
+	
+}

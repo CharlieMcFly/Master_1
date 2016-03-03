@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<art xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://labd/art"
+   xsi:schemaLocation="http://labd/art artistes.xsd">
+   <artistes>
+     <artiste>
+       <nom>Picasso</nom>
+       <prénom>Pablo</prénom>
+       <naissance>1881</naissance>
+       <décès>1973</décès>
+       <période mouv="cubisme">
+         <début>1906</début>
+         <fin>1921</fin>
+       </période>
+       <période mouv="surréalisme">
+         <début>1925</début>
+         <fin>1937</fin>
+       </période>
+     </artiste>
+     <artiste>
+       <nom>Miro</nom>
+       <prénom>Joan</prénom>
+       <naissance>1893</naissance>
+       <décès>1983</décès>
+       <période mouv="surréalisme">
+         <début>1924</début>
+       </période>
+     </artiste>
+     <artiste>
+       <nom>Magritte</nom>
+       <prénom>René</prénom>
+       <naissance>1898</naissance>
+       <décès>1967</décès>
+       <période mouv="surréalisme">
+         <début>1924</début>
+       </période>
+     </artiste>
+     <artiste>
+       <nom>Blake</nom>
+       <prénom>Peter</prénom>
+       <naissance>1932</naissance>
+       <période mouv="pop art"/>
+     </artiste>
+     <artiste>
+       <nom>Johns</nom>
+       <prénom>Jasper</prénom>
+       <naissance>1930</naissance>
+       <période mouv="pop art"/>
+     </artiste>
+   </artistes>
+   
+   <mouvements>
+     <mouvement>
+       <nom>cubisme</nom>
+       <description>Ce mouvement artistique du début du XXème siècle utilise les formes géométriques simples pour représenter des personnages et des objets sous plusieurs angles.Les cubistes choisissent de montrer toutes les facettes d'un objet en même temps. À l'époque, certains disent que ces oeuvres sont composées de petits cubes, d'où le nom "cubiste". La lecture du tableau est plus compliquée, mais tout est visible en même temps: devant, derrière, les côtés, le dessus, le dessous.
+       </description>
+       <période>De 1906 à la seconde guerre mondiale</période>
+     </mouvement>
+     <mouvement>
+       <nom>surréalisme</nom>
+       <description>Le surréalisme est un mouvement artistique qu'André Breton définit dans le premier Manifeste du Surréalisme comme « automatisme psychique pur, par lequel on se propose d'exprimer, soit verbalement, soit par écrit, soit de toute autre manière, le fonctionnement réel de la pensée. Dictée de la pensée, en l'absence de tout contrôle exercé par la raison, en dehors de toute préoccupation esthétique ou morale ».
+       </description>
+       <période>De 1917 à 1940, voire même le début des années 60.</période>
+     </mouvement>
+     <mouvement>
+       <nom>pop art</nom>
+       <description></description>
+       <période>à partir des années 50 en angleterre, des années 60 aux états unis</période>
+     </mouvement>
+   </mouvements>
+</art>

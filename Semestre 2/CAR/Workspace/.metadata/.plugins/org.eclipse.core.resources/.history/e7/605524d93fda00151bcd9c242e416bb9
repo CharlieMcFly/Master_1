@@ -1,0 +1,16 @@
+package Strategy;
+
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestCWD implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+}

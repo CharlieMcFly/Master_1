@@ -1,0 +1,27 @@
+package Stategy;
+
+import static org.mockito.Mockito.mock;
+
+import org.junit.Test;
+import org.mockito.Mockito;
+
+public class PWDTest {
+
+	@Test
+	public void test() {
+		Session session = mock(Session.class);
+		Request req = mock(Request.class);
+		Mockito.when(req.getSession()).thenReturn(session);
+		
+		Mockito.when(req.getSession().getPath()).thenReturn("");
+		
+		PWD pwd = new PWD();
+		
+		pwd.execute(req);
+		
+		Mockito.verify(session).sendCommand("257 " + "\"" + "\"" + " is the current directory.");
+		
+		
+	}
+
+}

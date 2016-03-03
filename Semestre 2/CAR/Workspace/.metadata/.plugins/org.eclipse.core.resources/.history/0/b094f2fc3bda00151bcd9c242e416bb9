@@ -1,0 +1,12 @@
+package Exceptions;
+
+import Serveur.FtpRequest;
+
+public class RequestPASSException extends RequestException {
+
+	public RequestPASSException(FtpRequest ftp) {
+		super("Password incorrect");
+		ftp.getWriter().println("Password incorrect !");
+	}
+
+}

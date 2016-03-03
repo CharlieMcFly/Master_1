@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="item">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="marque"/>
+				<xs:element ref="modele"/>
+				<xs:element ref="annee" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="prix" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="neufs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modele" type="xs:string"/>
+	<xs:element name="occases">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="annee" type="xs:string"/>
+	<xs:element name="stock">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="occases"/>
+				<xs:element ref="neufs"/>
+			</xs:sequence>
+			<xs:attribute name="nom" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="marque" type="xs:string"/>
+</xs:schema>

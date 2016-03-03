@@ -1,0 +1,14 @@
+package Strategy;
+
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestPWD implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+		ftp.getWriter().println(257 + " " + ftp.getPathname().toString());		
+	}
+
+
+}

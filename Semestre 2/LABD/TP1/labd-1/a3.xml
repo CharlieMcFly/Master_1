@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE A SYSTEM "d2.dtd">
+<A>
+	<B>
+		<C>8</C>
+	</B>
+	<D>
+		<F>9</F>
+		<F>10</F>
+	</D>
+	<B/>
+	<D>
+		<F>11</F>
+	</D>
+</A>

@@ -1,0 +1,9 @@
+package Strategy;
+
+public class RequestUSER implements Request{
+
+	public void doRequest() {
+		System.out.println("USER");
+	}
+
+}

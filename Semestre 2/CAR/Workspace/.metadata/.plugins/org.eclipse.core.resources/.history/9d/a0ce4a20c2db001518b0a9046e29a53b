@@ -1,0 +1,36 @@
+package Stategy;
+
+
+import static org.mockito.Mockito.mock;
+
+import java.io.File;
+
+import org.junit.Test;
+import org.mockito.Mockito;
+
+import Serveur.FtpRequest;
+import Strategy.RequestCDUP;
+
+public class RequestCDUPTest {
+
+	@Test
+	public void test() {
+		
+		FtpRequest ftp = mock(FtpRequest.class);
+		String [] request = {"CDUP", "dossier"};
+		File file = mock(File.class);
+		
+		Mockito.when(file.getParent()).thenReturn("dossier");
+		Mockito.when(ftp.getServerPath()).thenReturn("file");
+		Mockito.when(ftp.getServerPath()).thenReturn("");
+		
+		RequestCDUP cdup = new RequestCDUP();
+		
+		cdup.doRequest(ftp, request);
+		
+		Mockito.verify(ftp).setServerPath("dossier");
+		Mockito.verify(ftp).sendMessage("200 CDUP successfull");
+		
+	}
+
+}

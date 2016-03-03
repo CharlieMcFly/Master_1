@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<liste xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://labd/art"
+    xsi:schemaLocation="http://labd/art catalogues.xsd">
+   
+   <fichier uri="catalogue-1.xml"/>  
+   <fichier uri="catalogue-2.xml"/>
+   
+</liste>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!-- 1  -->
+	<xsd:simpleType name="type_time">
+		<xsd:restriction base="xsd:time">
+			<xsd:pattern value="(([01][0-9])|(2[0-3]))(:[0-5][0-9]){2}(\.[0-9]+)?" /> 
+			<xsd:minInclusive value="02:30:00"></xsd:minInclusive>
+			<xsd:maxInclusive value="16:50:00"></xsd:maxInclusive> 
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="heure" type="type_time"></xsd:element>
+
+	<!-- 2 -->
+	<xsd:simpleType name="type_entier">
+	 	<xsd:restriction base="xsd:float">
+			<xsd:minInclusive value='-3476.4'/>
+			<xsd:maxExclusive value='5'/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="entier" type="type_entier"/>
+
+	<!-- 3 -->
+	<xsd:simpleType name='type_c'>
+		<xsd:restriction base='xsd:string'>
+	     		<xsd:length value='4' fixed='true'/>
+	   	</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="chaine4" type="type_c"/>
+	<!-- 4 -->
+	<xsd:simpleType name="type_img">
+		<xsd:restriction base='xsd:string'>
+			<xsd:pattern value='!(jpg|png|gif)'/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="image" type="type_img"/>
+	<!-- 5 -->
+	<xsd:simpleType name="type_isbn">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="[0-9]{13}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:element name="isbn" type="type_isbn"/>
+</xsd:schema>

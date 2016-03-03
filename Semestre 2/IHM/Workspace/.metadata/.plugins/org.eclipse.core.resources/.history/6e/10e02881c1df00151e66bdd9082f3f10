@@ -1,0 +1,60 @@
+import java.awt.Dimension;
+
+import javax.swing.Box.Filler;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+
+public class MaFenetre{
+
+	public static void main(String[] args) {
+		
+//JFrame
+		JFrame jf = new JFrame("JFrame");
+		jf.setSize(500, 500);
+		jf.setLocationRelativeTo(null);
+//		jf.getContentPane().add(new JLabel("Hello World"));
+		jf.setDefaultCloseOperation(1);
+		jf.setResizable(true);
+				
+// 		JDialog
+//		JDialog jd = new JDialog(jf);
+//		jd.setTitle("JDialog");
+//		jd.setLocationRelativeTo(jf);
+//		jd.setSize(150,150);
+//		jd.setDefaultCloseOperation(1);
+//		jd.setResizable(false);
+		
+//		jf.getContentPane().add(new JButton("North"), BorderLayout.NORTH);
+//		jf.getContentPane().add(new JButton("South"), BorderLayout.SOUTH);
+//		jf.getContentPane().add(new JButton("East"), BorderLayout.EAST);
+//		jf.getContentPane().add(new JButton("West"), BorderLayout.WEST);
+//		jf.getContentPane().add(new JButton("Center"), BorderLayout.CENTER);
+		
+//		jf.setLayout(new FlowLayout(FlowLayout.CENTER));
+//		for (int i = 1; i < 17; i++) {
+//			jf.getContentPane().add(new JButton("Button "+i));
+//		}
+
+//		jf.setLayout(new GridLayout(4, 4));
+//		for (int i = 1; i < 17; i++) {
+//			jf.getContentPane().add(new JButton("Button "+i));
+//		}
+		
+		BoxLayout bl = new BoxLayout(jf.getContentPane(), BoxLayout.Y_AXIS);
+		jf.getContentPane().setLayout(bl);
+		for (int i = 1; i < 17; i++) {
+			if(i==3)
+				jf.getContentPane().add(new Filler(new Dimension(50,50),new Dimension(50,50),new Dimension(50,50)));
+			else 
+				jf.getContentPane().add(new JButton("Button "+i));
+		}
+		
+		
+//		Rendre Visible 
+		jf.setVisible(true);
+//		jd.setVisible(true);
+		
+	}
+}

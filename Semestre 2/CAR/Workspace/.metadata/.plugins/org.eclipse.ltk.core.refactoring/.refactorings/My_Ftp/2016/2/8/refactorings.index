@@ -1,0 +1,60 @@
+1456228303498	Delete element
+1456229050582	Move compilation unit
+1456229123218	Move compilation units
+1456229152504	Rename type 'ServeurInitError'
+1456229176008	Rename package 'Excepton'
+1456229184139	Move compilation units
+1456232372562	Rename type 'DroitClient'
+1456237897333	Rename type 'FTPRequestUserException'
+1456238372803	Delete element
+1456238403639	Delete element
+1456238564666	Rename type 'FTPRequeseetPasswordException'
+1456238979148	Rename type 'FTPRequestAccessException'
+1456239758531	Rename type 'FTPRequestRetrException'
+1456240482469	Rename type 'FTPConnectionException'
+1456240494386	Rename type 'FTPDisconnectionException'
+1456306462600	Move compilation unit
+1456308918743	Delete element
+1456314299327	Rename type 'ServeurData'
+1456319410853	Move file
+1456363791431	Delete element
+1456368542244	Delete element
+1456368841163	Rename field 'passive'
+1456369106835	Delete element
+1456369152999	Delete element
+1456369283895	Rename package 'Commande.CommandeImpl'
+1456369297907	Rename type 'DataConnectionServiceTest'
+1456369312959	Rename type 'UserTest'
+1456369786671	Delete element
+1456369791975	Delete elements
+1456372121351	Delete elements
+1456372841248	Rename type 'CDUPTest'
+1456397890627	Rename type 'CWDTest'
+1456397913592	Rename type 'DELETest'
+1456397928849	Rename type 'LISTTest'
+1456397943335	Rename type 'MKDTest'
+1456397953031	Rename type 'PASSTest'
+1456397966346	Rename type 'PWDTest'
+1456397976915	Rename type 'RETRTest'
+1456397988938	Rename type 'STORTest'
+1456398001844	Rename type 'USERTest'
+1456403243801	Delete elements
+1456404156531	Rename type 'PASSTest'
+1456404739320	Rename type 'PWDTest'
+1456404782329	Rename type 'LISTTest'
+1456406026424	Rename type 'CDUPTest'
+1456407022737	Rename type 'MKDTest'
+1456408509832	Rename type 'CWDTest'
+1456412688004	Rename type 'DELETest'
+1456413260981	Rename field 'req'
+1456413273738	Rename field 'os'
+1456413281953	Rename field 'socket'
+1456413499978	Rename type 'RETRTest'
+1456413510081	Rename type 'STORTest'
+1456413531825	Delete element
+1456413565109	Rename field 'req'
+1456413579734	Rename field 'fos'
+1456416221644	Delete element
+1456416235598	Delete element
+1456416299381	Move compilation unit
+1456416307798	Move compilation unit

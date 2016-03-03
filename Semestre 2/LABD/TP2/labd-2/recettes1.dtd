@@ -1,0 +1,16 @@
+<!ELEMENT cuisine (recette)+>
+<!ELEMENT recette (titre, categorie, ingredients,tps_preparation?, tps_cuisson?, texte, conseil?)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT tps_preparation (#PCDATA)>
+<!ELEMENT tps_cuisson (#PCDATA)>
+<!ELEMENT conseil (#PCDATA)>
+<!ELEMENT categorie (#PCDATA)>
+
+<!ELEMENT ingredients (ingredient)+>
+<!ELEMENT ingredient (nom_ing,quantite)>
+<!ELEMENT nom_ing (#PCDATA)>
+<!ELEMENT quantite (#PCDATA)>
+
+<!ELEMENT texte (etape)+>
+<!ELEMENT etape (#PCDATA)>
+

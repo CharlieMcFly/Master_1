@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<continent>
+	<pays>
+		<nom>France</nom>
+		<population année="2007">64102000</population>
+	</pays>
+	<pays>
+		<nom>Italie</nom>
+		<population année="2006">58133509</population>
+	</pays>
+	<pays>
+		<nom>Espagne</nom>
+		<population année="2006">44708694</population>
+	</pays>
+</continent>

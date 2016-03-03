@@ -1,0 +1,55 @@
+package Strategy;
+
+import java.io.File;
+
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+import Serveur.Session;
+
+public class RequestCWD implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+
+		String argument = request[1];
+		String path = "/";
+
+		// EXIT if no argument
+		if (argument.isEmpty()) {
+			session.sendCommand("501 Syntax error in parameters");
+			return;
+		}
+		// EXIT if trying to go back with these command
+		if (argument.contains("..")) {
+			session.sendCommand("550 No access to parent folder");
+			return;
+		}
+
+		// Root path
+		else if (argument.equals("/")) {
+			path = "/";
+		}
+		// Absolute path
+		else if (argument.startsWith("/")) {
+			path = argument + "/";
+		}
+		// Relative path
+		else {
+			path = session.getPath() + argument + "/";
+		}
+
+		// Check and set path
+		File dir = new File(session.getUser().getHomeFolder(), path);
+		if (dir.isFile()) {
+			session.sendCommand("550 Cannot go into a file (CWD on file)");
+		} else if (!dir.exists()) {
+			session.sendCommand("550 No such directory");
+		} else {
+			session.setPath(path);
+			session.sendCommand("250 CWD command successfull");
+		}
+	}
+
+
+
+}

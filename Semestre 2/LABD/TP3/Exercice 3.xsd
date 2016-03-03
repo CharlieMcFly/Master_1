@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="op">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cons" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="var" minOccurs="0"/>
+				<xs:element ref="op" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attribute name="val" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="var" type="xs:string"/>
+	<xs:element name="expr">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="op"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cons" type="xs:integerk"/>
+</xs:schema>

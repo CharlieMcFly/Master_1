@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<a:A xsi:schemaLocation="http://www.a.com a.xsd" 
+	xmlns:b="http://www.b.com" 
+	xmlns:a="http://www.a.com" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<b:B> bla bla bla (Mc Leod[2007])</b:B>
+</a:A>

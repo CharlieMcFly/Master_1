@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE cuisine SYSTEM "./recettes1.dtd"> -->
+<cuisine>
+  <recette>
+    <titre>
+      Batavia aux croutons
+  </titre>
+    <categorie>
+entrée
+</categorie>
+    <ingredients>
+      <ingredient>
+        <nom_ing>
+batavia
+</nom_ing>
+        <quantite>
+1
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+pain de mie
+</nom_ing>
+        <quantite>
+3 tranches coupées en dés
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+parmesan frais
+</nom_ing>
+        <quantite>
+50 g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+ail
+</nom_ing>
+        <quantite>
+1 gousse
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+mayonnaise
+</nom_ing>
+        <quantite>
+1 cuillère à soupe
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+vinaire de xérès
+</nom_ing>
+        <quantite>
+1 cuillère à soupe
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+huile de tournesol
+</nom_ing>
+        <quantite>
+5 cuillères à soupe
+</quantite>
+      </ingredient>
+    </ingredients>
+    <texte>
+      <etape>
+Epluchez, lavez et essorez la batavia
+</etape>
+      <etape>
+Dans un saladier, mélangez la mayonnaise, le vinaigre, 3 cuillères à soupe d'huile et l'ail pilé. Salez et poivrez.
+</etape>
+      <etape>
+Faites chauffer 2 cuillères à soupe d'huile dans une poêle et faites revenir les dés de pain 5 minutes à feu moyen en les retournant fréquemment.
+Retirez-les de la poêle et égouttez-les sur du papier absorbant.
+</etape>
+      <etape>
+Mettez la batavia dans le saladier, parsemez de parmesan coupé en copeaux à l'aide d'un économe. Ajoutez les croûtons par dessus.
+Mélangez et servez aussitôt.
+</etape>
+    </texte>
+  </recette>
+  <recette>
+    <titre>
+Tarte Fine à l'italienne
+  </titre>
+    <categorie>
+Entrée
+</categorie>
+    <ingredients>
+      <ingredient>
+        <nom_ing>
+pâte feuilletée prête à dérouler
+</nom_ing>
+        <quantite>
+1
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+tomates
+</nom_ing>
+        <quantite>
+6
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+jambon cru
+</nom_ing>
+        <quantite>
+3 tranches
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+mozarella
+</nom_ing>
+        <quantite>
+400g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+herbes de provence
+</nom_ing>
+        <quantite>
+1 cuillère à café
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+sel
+</nom_ing>
+        <quantite>
+quelques pincées
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+poivre
+</nom_ing>
+        <quantite></quantite>
+      </ingredient>
+    </ingredients>
+    <tps_cuisson>
+20 minutes
+</tps_cuisson>
+    <texte>
+      <etape>
+Préchauffez le four à 180 degré (thermostat 6)
+</etape>
+      <etape>
+Déroulez la pâte sur la plque du four en gardant le papier sulfurisé.
+Posez une nouvelle feuille de papier sulfurisé par dessus et recouvrer avec des légumes secs. Faites cuire à blanc pendant 10 minutes.
+</etape>
+      <etape>
+Pelez les tomates, coupez les en quatre et épépinez-les. Mettez-les dans une passoire et saupoudrez-les de 3 pincées de sel afin de les faire dégorger.
+</etape>
+      <etape>
+Découpez le jambon en lanières et la mozzarella en tranches.
+</etape>
+      <etape>
+Répartissez les lanières de jambon sur le fond de tarte.
+Essuyez un à un les morceaux de tomates à l'aide d'un papier absorbant
+et posez-les sur le jambon. Etalez les tranches de mozzarella.
+Parsemez d'herbes de provence et assaisonnez. 
+</etape>
+      <etape>
+Remettez au four pendant 10 minutes. Cette tarte se déguste tiède.
+</etape>
+    </texte>
+    <conseil>
+Vous pouvez remplacer la pâte feuilletée par une pâte à pizza et ajouter 100g de champignons de Paris.
+</conseil>
+  </recette>
+  <recette>
+    <titre>
+Sablés bretons à la fleur d'oranger
+</titre>
+    <categorie>
+dessert
+</categorie>
+    <ingredients>
+      <ingredient>
+        <nom_ing>
+farine
+</nom_ing>
+        <quantite>
+150g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+beurre salé
+</nom_ing>
+        <quantite>
+100g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+sucre en poudre
+</nom_ing>
+        <quantite>
+75g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+oeufs
+</nom_ing>
+        <quantite>
+1 entier ou 2 jaunes
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+angélique confite
+</nom_ing>
+        <quantite>
+1 cuillère à soupe
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+eau de fleur d'oranger
+</nom_ing>
+        <quantite>
+1 petite cuillère à café
+</quantite>
+      </ingredient>
+    </ingredients>
+    <tps_preparation>
+20 minutes + 1h repos de la pâte
+</tps_preparation>
+    <tps_cuisson>
+10-12 minutes
+</tps_cuisson>
+    <texte>
+      <etape>
+Mélangez du bout des doigts farine, beurre coupé en dés et sucre.
+Puis pressez et frottez entre les paumes des mains pour obtenir une sorte de gros sable (peut se faire avec un batteur électrique).
+</etape>
+      <etape>
+Incorporez-y rapidement l'oeuf, l'angélique coupée menu et la fleur d'oranger.
+N'essayez pas d'obtenir une pâte lisse en pétrissant trop longtemps car votre pâte durcirait. Mettez-la en boule et laissez-la dans le réfrigérateur pendant 1 heure.
+</etape>
+      <etape>
+Cuisson : allumez le four à thermostat 5/6. Etalez la pâte à 1/2 cm d'épaisseur environ.
+Passez le bord du verre ou l'emporte-pièce dans la farine avant de découper la pâte en rondelles.
+Déposez-les sur la plaque à pâtisserie beurrée.
+Faites cuire de 10 à 12 minutes à four moyen (thermostat 5/6).
+Laissez tiédir avant de les décoller de la plaque. Mettez-les sur une grille.
+Dégustez-les juste refroidis ou conservez-les das une boîte en fer hermétique.
+</etape>
+    </texte>
+  </recette>
+  <recette>
+    <titre>
+Clafoutis aux cerises
+</titre>
+    <categorie>
+dessert
+</categorie>
+    <ingredients>
+      <ingredient>
+        <nom_ing>
+petits pains rassis
+</nom_ing>
+        <quantite>
+6
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+lait
+</nom_ing>
+        <quantite>
+200 ml
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+cerises (fraîches ou en pots)
+</nom_ing>
+        <quantite>
+300g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+margarine
+</nom_ing>
+        <quantite>
+100g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+sucre
+</nom_ing>
+        <quantite>
+100g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+oeufs
+</nom_ing>
+        <quantite>
+3
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+zeste de citron râpé
+</nom_ing>
+        <quantite>
+1/2 citron
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+cannelle en poudre
+</nom_ing>
+        <quantite>
+une pointe
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+noisettes en poudre
+</nom_ing>
+        <quantite>
+50g
+</quantite>
+      </ingredient>
+      <ingredient>
+        <nom_ing>
+crème fraiche
+</nom_ing>
+        <quantite>
+125 g
+</quantite>
+      </ingredient>
+    </ingredients>
+    <tps_preparation>
+25 minutes
+</tps_preparation>
+    <tps_cuisson>
+40 minutes
+</tps_cuisson>
+    <texte>
+      <etape>
+Oter la croûte du pain. Couper la mie en dés, la faire tremper dans le lait.
+Séparer les blancs des jaunes d'oeuf.
+</etape>
+      <etape>
+Laver et dénoyauter les cerises.
+</etape>
+      <etape>
+Mélanger la margarine avec le sucre et les jaunes d'oeuf pour en faire une masse mousseuse.Y ajouter le zeste de citron, la cannelle et les noisettes.
+</etape>
+      <etape>
+Presser la mie, l'ajouter à la crème et mélanger.
+</etape>
+      <etape>
+Battre les blancs en neige et les ajouter délicatement à la pâte.
+</etape>
+      <etape>
+Graisser un plat avec la margarine. Le remplir de la moitié de la pâte, y répartir les cerises. Recouvrir du reste de la pâte.
+</etape>
+      <etape>
+Mettre le clafoutis dans le four préchauffé et faire cuire environ 40 minutes.
+</etape>
+    </texte>
+  </recette>
+</cuisine>

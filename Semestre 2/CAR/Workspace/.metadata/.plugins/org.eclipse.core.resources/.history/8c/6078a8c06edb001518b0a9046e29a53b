@@ -1,0 +1,20 @@
+package Strategy;
+
+import Client.Client;
+import Exceptions.RequestException;
+import Exceptions.RequestUSERException;
+import Serveur.FtpRequest;
+
+public class RequestUSER implements Request{
+
+	public void doRequest(FtpRequest ftp, String [] request) throws RequestException{
+		
+		if(ftp.contientClientUsername(request[1])){
+			ftp.sendMessage(331 + " Username correct ");
+			ftp.setClient(ftp.getClientByUsername(request[1]));
+		}else{
+			throw new RequestException("Probleme Connection USER");
+		}
+	}
+
+}

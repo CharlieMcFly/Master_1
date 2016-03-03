@@ -1,0 +1,45 @@
+package Strategy;
+
+import java.io.File;
+
+import Exceptions.RequestDroitException;
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestCWD implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+
+		if(!ftp.getClient().canRead()){
+			ftp.getWriter().println(550 + " access denied");
+    		throw new RequestDroitException(ftp);
+		}
+		
+		
+		if(request[1].startsWith("/"))
+			ftp.setPathname(request[1]);	
+		else{	
+			if(ftp.getPathname().compareTo("/") == 0)
+				ftp.setPathname(ftp.getPathname() + request[1]);
+			else
+				ftp.setPathname(ftp.getPathname() + "/" + request[1]);
+		}
+		if(ftp.getPathname().startsWith(ftp.getRacine())){
+			if(new File(ftp.getPathname()).exists())
+				ftp.getWriter().println(250 + " CWD ok");
+			else{
+				ftp.setPathname(ftp.getRacine());
+				ftp.getWriter().println(550 + " directory not exist");
+			}
+		}
+		else{
+			ftp.setPathname(ftp.getRacine());
+			ftp.getWriter().println(550 + " access denied");
+		}
+		
+	}
+
+
+
+}

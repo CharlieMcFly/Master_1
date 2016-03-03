@@ -1,0 +1,23 @@
+// RECETTE 1
+
+1. //recette/titre
+2. distinct-values(//ingredient/nom_ing)
+2. //ingredient[not(./text=preceding::*/text())]
+3. //recette[2]/titre
+4. //etape[position()=last()]
+5. count(//recette)
+6. //recette[count(./ingredients/ingredient)<7]
+7. //recette[count(./ingredients/ingredient)<7]/titre
+8. //recette[contains(./ingredients/ingredient/nom_ing/child::text(), "farine")]
+9. //recette[contains(./categorie/child::text(),"entrée")]
+
+// RECETTE 2
+1. //recette/titre
+2. //ingredient/@nom
+3. //recette[2]/titre
+4. //etape[position()=last()]
+5. count(//recette)
+6. //recette[count(./ingredients/ing-recette)<7)]
+7. //titre[count(./../ingredients/ing-recette)<7)]
+8. //recette[contains(./ingredients/ing-recette/@ingredient, "farine")]
+9. //recette[contains(@categ,"entree")]

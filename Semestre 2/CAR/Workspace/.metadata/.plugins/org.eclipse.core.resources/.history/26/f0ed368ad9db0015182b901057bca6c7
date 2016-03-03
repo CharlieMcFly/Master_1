@@ -1,0 +1,10 @@
+package Main;
+
+/**
+ * 
+ * @author charlie
+ *
+ */
+public class FTPDisconnexionException extends RuntimeException{
+
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE itineraire SYSTEM "TP1-EX4-DTD.dtd">
+<itineraire>
+	<depart heure="14h38"> Seclin - Centre Hospitalier</depart>
+	<arrivee heure="16h05"> Roubaix - Avenue Motte </arrivee>
+	<date>Mardi 22 janvier</date>
+	<heure>12h35</heure>
+	<transport>
+		<mode>Métro</mode>
+		<mode>Tramway</mode>
+		<mode>Bus</mode>
+		<mode>Car</mode>
+	</transport>  
+	<preferences> Arrivée le plus rapidement </preferences>
+	<vitesse> Normale </vitesse>
+	<temps> 1h27min </temps>
+	<etapes>
+		<voyage type="Pied">
+			<depart heure="14h38" > Seclin - Centre Hospitalier </depart>
+			<arrivee heure="14h51" > Seclin - Hôtel de ville</arrivee>
+		</voyage>
+		<voyage type="Bus">
+			<depart heure="14h51" > ligne 52 en direction de Lille - Porte des Postes </depart>
+			<arrivee heure="15h14" > Lille - CHR B Calmette </arrivee>
+		</voyage>
+		<voyage type="Métro">
+			<depart heure="15h18" > ligne 1 en direction de Villeneuve d'Asqc - 4 cantons Grand Stade </depart>
+			<arrivee heure="15h21" > Lille - Porte des Postes </arrivee>
+		</voyage>
+		<voyage type="Métro">
+			<depart heure="15h27" > ligne 2 en direction de Tourcoing - CH Dron </depart>
+			<arrivee heure="15h52" > Roubais -  Epeule Montesquieu </arrivee>
+		</voyage>
+		<voyage type="Bus">
+			<depart heure="15h56" > ligne 25 en direction de Roubaix - fraternité </depart>
+			<arrivee heure="16h05" > Roubaix - Avenue Motte </arrivee>
+		</voyage>
+	</etapes>
+</itineraire>

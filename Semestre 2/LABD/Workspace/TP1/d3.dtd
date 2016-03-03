@@ -1,0 +1,7 @@
+
+<!ELEMENT  A (B+,D+,F*)>
+<!ELEMENT  B (C*)>
+<!ELEMENT  C (#PCDATA)>
+<!ELEMENT  D (F*)>
+<!ELEMENT  F (#PCDATA)>
+

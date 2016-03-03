@@ -1,0 +1,10 @@
+package Exceptions;
+
+public class RequestDroitException extends RequestException {
+
+	public RequestDroitException(String erreur) {
+		super(erreur);
+		// TODO Auto-generated constructor stub
+	}
+
+}

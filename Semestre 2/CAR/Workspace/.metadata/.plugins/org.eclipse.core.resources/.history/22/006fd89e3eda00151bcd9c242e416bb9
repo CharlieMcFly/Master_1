@@ -1,0 +1,11 @@
+package Exceptions;
+
+import Serveur.FtpRequest;
+
+public class RequestException extends Exception {
+
+	public RequestException(FtpRequest ftperreur){
+		super(ftperreur);
+	}
+
+}

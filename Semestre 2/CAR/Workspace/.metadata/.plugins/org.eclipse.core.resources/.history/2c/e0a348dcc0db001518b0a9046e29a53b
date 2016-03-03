@@ -1,0 +1,14 @@
+package Stategy;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RequestTYPETest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

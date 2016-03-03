@@ -1,0 +1,51 @@
+package Stategy;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
+
+import org.junit.Test;
+import org.mockito.Mockito;
+
+import Commande.Request;
+import Serveur.Session;
+import Serveur.User;
+
+public class RequestPASSTest {
+
+	@Test
+	public void testOK() {
+		Session session = mock(Session.class);
+		Request req = mock(Request.class);
+		User user = mock(User.class);
+		
+		Mockito.when(req.getSession()).thenReturn(session);
+		Mockito.when(session.getUser()).thenReturn(user);
+		Mockito.when(req.getArgument()).thenReturn("azerty");
+		Mockito.when(user.connect("azerty")).thenReturn(true);
+
+		PASS pass = new PASS();
+
+		pass.execute(req);
+
+		Mockito.verify(session).sendCommand("230 User logged in, proceed");
+	}
+	
+	@Test
+	public void testNotOk() {
+		Session session = mock(Session.class);
+		Request req = mock(Request.class);
+		User user = mock(User.class);
+		
+		Mockito.when(req.getSession()).thenReturn(session);
+		Mockito.when(session.getUser()).thenReturn(user);
+		Mockito.when(req.getArgument()).thenReturn("azerty");
+		Mockito.when(user.connect("azerty")).thenReturn(false);
+
+		PASS pass = new PASS();
+
+		pass.execute(req);
+
+		Mockito.verify(session).sendCommand("530 Not logged in");
+	}
+
+}

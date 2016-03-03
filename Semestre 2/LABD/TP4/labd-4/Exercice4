@@ -1,0 +1,9 @@
+Question 2 : Évaluez la requête XPath //* puis évaluez la requête //nom. Que constatez vous ?
+Expliquez.
+
+La requête :
+  //* =  résultat
+  //nom = aucun résultat
+  car n'est pas spécifier dans le namespace appartient à xmlns:bda
+
+  

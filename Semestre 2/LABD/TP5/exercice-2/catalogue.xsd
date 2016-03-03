@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xsi:schemaLocation="http://www.w3.org/2001/XMLSchema
+                         http://www.w3.org/2001/XMLSchema.xsd"
+            xmlns="http://labd/art"
+            targetNamespace="http://labd/art"
+            elementFormDefault="qualified">
+            
+  <!-- description des oeuvres -->
+
+  <xsd:simpleType name="typeGenreOeuvre">
+    <xsd:restriction base="xsd:token">
+      <xsd:enumeration value="sculpture"/>
+      <xsd:enumeration value="peinture"/>
+      <xsd:enumeration value="dessin"/>
+      <xsd:enumeration value="autre"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:element name="oeuvre">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="titre" type="xsd:string"/>
+        <xsd:element name="auteur">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="nom" type="xsd:string"/>
+              <xsd:element name="prénom" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="date" type="xsd:gYear" minOccurs="0"/>
+      </xsd:sequence>
+      <xsd:attribute default="peinture" name="genre" type="typeGenreOeuvre"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <!-- catalogue = 1 musée et des oeuvres -->
+
+  <xsd:element name="catalogue">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="musée" type="xsd:string"/>
+        <xsd:element ref="oeuvre" minOccurs="1" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element> 
+    
+</xsd:schema>

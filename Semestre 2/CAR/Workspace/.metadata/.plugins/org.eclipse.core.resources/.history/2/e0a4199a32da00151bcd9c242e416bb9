@@ -1,0 +1,17 @@
+package Strategy;
+
+import Exception.FTPRequestUserException;
+import Serveur.FtpRequest;
+
+public class RequestUSER implements Request{
+
+	public void doRequest(FtpRequest ftp, String [] request) {
+		if(ftp.containsUserNamed(request[1])){
+			ftp.getWriter().println(331 + " Login ok");
+			ftp.setClient(ftp.getUserNamed(request[1]));
+		}else{
+			throw new FTPRequestUserException(ftp);
+		}
+	}
+
+}

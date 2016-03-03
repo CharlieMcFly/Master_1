@@ -1,0 +1,12 @@
+d1.dtd 
+	a1 OK
+	a2 OK
+	a3 KO
+d2.dtd
+	a1 KO
+	a2 OK
+	a3 OK
+d3.dtd
+	a1 KO
+	a2 OK
+	a3 OK

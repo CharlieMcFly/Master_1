@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            
+	<xsd:group name="TypeConteneurPieces">
+		<xsd:sequence>
+		<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="alcove" type="TypePiece"/>
+			<xsd:element name="cuisine" type="TypePiece"/>
+			<xsd:element name="séjour" type="TypePiece"/>
+			<xsd:element name="bureau" type="TypePiece"/>
+			<xsd:element name="garage" type="TypePiece"/>
+			<xsd:element name="terrasse" type="TypePiece"/>
+			<xsd:element name="chambre" type="TypePiece"/>
+			<xsd:element name="salledeBain" type="TypePiece"/>
+			<xsd:element name="mirador" type="TypePiece"/>
+			<xsd:element name="WC" type="TypePiece"/>
+		</xsd:choice>
+		</xsd:sequence>
+	</xsd:group>
+	
+	<xsd:complexType name="TypeNiveau">
+		<xsd:group ref="TypeConteneurPieces"/>
+	</xsd:complexType>
+	
+	<xsd:complexType name="TypePiece" mixed="true">
+		<xsd:group ref="TypeConteneurPieces"/>
+		<xsd:attribute name="surface-m2" type="xsd:decimal"/>
+		<xsd:attribute name="fenetre" type="xsd:positiveInteger"/>
+	</xsd:complexType>
+	
+	
+	<xsd:element name="maison">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:choice minOccurs="0" maxOccurs="unbounded">
+			<xsd:element name="étage" type="TypeNiveau"/>
+			<xsd:element name="RDC" type="TypeNiveau"/>
+				</xsd:choice>
+			</xsd:sequence>
+			<xsd:attribute name="id" type="xsd:positiveInteger" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="maisons">
+		<xsd:complexType>
+			<xsd:sequence minOccurs="0" maxOccurs="unbounded">
+				<xsd:element ref="maison"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+</xsd:schema>

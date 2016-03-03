@@ -1,0 +1,45 @@
+Exercice 1 : -->
+<!-- Q1 -->
+<livre>
+	<titre> edition </titre>
+	<edition> edition </edition>
+</livre>
+
+<!-- Q2 -->
+<!-- 
+1. /item/livre[@titre="labd" and position()=last()]
+On prend le livre avec le titre labd et qui est à la dernière position
+
+2. /item/livre[@titre="labd] [position()=last()]
+On prend tous les livres qui ont labd et on prend le dernier de tous ces livres
+
+3. /item/livre[position()=last()][@titre="labd"]
+On prend le dernier livre et on le prend s'il a le titre labd 
+
+Le 1 et le 3
+
+-->
+
+<item> 
+	<livre></livre>
+	<livre></livre>
+	<livre titre="labd"></livre>
+	<livre></livre>
+</item>
+
+<!-- Q3 -->
+<!-- 
+1) prend dans le descendant le 2e livre 
+2) prend dans l'élément courant ou le descendant le 2e livre
+-->
+
+<item>
+	<!-- 1) 2) -->
+	<livre>Livre 1</livre>
+	<livre>Livre 2</livre> 
+	<collection>
+		<!-- 2) -->
+		<livre>Livre 3</livre>
+		<livre>Livre 4</livre>
+	</collection>
+</item>

@@ -1,0 +1,10 @@
+package Exceptions;
+
+public class RequestException extends Exception {
+
+	/** Constructeur prenant un paramètre le message d'erreur **/
+	public RequestException(String erreur){
+		super(erreur);
+	}
+
+}

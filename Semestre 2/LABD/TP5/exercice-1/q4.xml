@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<journee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" num="18">
+			
+   <date>2014-12-13</date>
+			
+   <rencontre>
+				
+      <receveur>OL</receveur>
+				
+      <invite>SMC</invite>
+				
+      <score>3 0</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>FCN</receveur>
+				
+      <invite>GB</invite>
+				
+      <score>2 1</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>SCB</receveur>
+				
+      <invite>SRFC</invite>
+				
+      <score>2 0</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>FCL</receveur>
+				
+      <invite>FCM</invite>
+				
+      <score>3 1</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>MHSC</receveur>
+				
+      <invite>RCL</invite>
+				
+      <score>3 3</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>SR</receveur>
+				
+      <invite>ETGFC</invite>
+				
+      <score>3 2</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>OGCN</receveur>
+				
+      <invite>ASSE</invite>
+				
+      <score>0 0</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>EAG</receveur>
+				
+      <invite>PSG</invite>
+				
+      <score>1 0</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>LOSC</receveur>
+				
+      <invite>TFC</invite>
+				
+      <score>3 0</score>
+			
+   </rencontre>
+			
+   <rencontre>
+				
+      <receveur>ASMFC</receveur>
+				
+      <invite>OM</invite>
+				
+      <score>1 0</score>
+			
+   </rencontre>
+		
+</journee>

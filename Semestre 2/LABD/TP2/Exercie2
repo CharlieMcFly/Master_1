@@ -1,0 +1,4 @@
+1. /produits/fruit/producteur
+2. /produits/legume/origine[child::text()="Espagne"]
+3. /produits/fruit[@type="clementine" and @calibre ="1" and bio]
+4. //producteur[parent::node()/origine[@region="Bretagne"]]

@@ -1,0 +1,90 @@
+package Client;
+
+
+public class Client {
+
+	private String login;
+	private String password;
+	private Droit droit;
+	private boolean connected = false;
+	private String pathname;
+
+	/**
+	 * Constructeur, prenant un login et un mot de passe
+	 */
+	public Client(String login, String pass){
+		this.login=login;
+		this.password=pass;
+		this.droit = new Droit();
+	}
+	
+	public void setAccess(Droit droit){
+		this.droit = droit;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public Droit getDroit() {
+		return droit;
+	}
+	
+	/**
+	 * Indique si l'utilisateur peut lire
+	 */
+	public boolean canRead(){
+		return this.droit.isRead();
+	}
+	
+	/**
+	 * Indique si l'utilisateur peut écrire
+	 */
+	public boolean canWrite(){
+		return this.droit.isWrite();
+	}
+	
+	/**
+	 * Vérification du login
+	 */
+	public boolean isLogin(String login){
+		return this.login.equals(login);
+	}
+	
+	/**
+	 * Vérification du password
+	 */	
+	public boolean isPassword(String pass){
+		return this.password.equals(pass);
+	}	
+	
+	public String toString(){
+		return this.login.toString();
+	}
+	
+	
+	public boolean isConnected() {
+		return connected;
+	}
+
+	public void setConnected(boolean connected) {
+		this.connected = connected;
+	}
+
+	public void setDroit(Droit droit) {
+		this.droit = droit;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;My_Ftp/test&apos;&#x0A;- Original project: &apos;FTPServer&apos;&#x0A;- Destination element: &apos;My_Ftp/test&apos;&#x0A;- Original elements:&#x0A;     FTPServer/tests/Serveur&#x0A;     FTPServer/tests/Commande.CommandeImpl" description="Copy packages" destination="=My_Ftp/test" element1="/tests&lt;Serveur" element2="/tests&lt;Commande.CommandeImpl" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1456369206310" version="1.0"/>
+</session>

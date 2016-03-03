@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE famille SYSTEM "famille.dtd"> 
+<famille>
+	<nom>Martin</nom>
+	<personne pnumber="a1">
+		<prenom>Juliette</prenom>
+		<age>30</age>
+		<poids-kg>58</poids-kg>
+	</personne>
+	<personne pnumber="a2">
+		<prenom>Romeo</prenom>
+		<age>31</age>
+		<poids-lb>97</poids-lb>
+	</personne>
+	<personne pnumber="a3" mere="a1" pere="a2">
+		<prenom>Max</prenom>
+		<age>4</age>
+		<poids-kg>12</poids-kg>
+		<taille>1.25</taille>
+	</personne>
+	<personne pnumber="a4" mere="a1" pere="a2">
+		<prenom>Marie</prenom>
+		<age>3</age>
+		<poids-lb>18</poids-lb>
+		<taille>1.10</taille>
+	</personne>
+</famille>

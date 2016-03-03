@@ -1,0 +1,54 @@
+
+<!ELEMENT alcove  EMPTY>
+<!ATTLIST alcove
+surface-m2 CDATA #REQUIRED
+>
+
+<!ELEMENT garage  EMPTY>
+
+<!ELEMENT cuisine  ( #PCDATA )>
+<!ATTLIST cuisine
+surface-m2 CDATA #REQUIRED
+>
+
+<!ELEMENT salledeBain  ( #PCDATA )>
+<!ATTLIST salledeBain
+surface-m2 CDATA #REQUIRED
+>
+
+<!ELEMENT WC  ( #PCDATA )>
+
+<!ELEMENT chambre  ( #PCDATA | alcove? )>
+<!ATTLIST chambre
+surface-m2 CDATA #REQUIRED
+fenetre CDATA #IMPLIED
+>
+
+<!ELEMENT terrasse  EMPTY>
+
+<!ELEMENT RDC  ( cuisine? , WC? , séjour? , bureau? , garage? )>
+
+<!ELEMENT mirador  ( #PCDATA )>
+<!ATTLIST mirador
+surface-m2 CDATA #REQUIRED
+>
+
+<!ELEMENT maison  ( RDC , étage )>
+<!ATTLIST maison
+id CDATA #REQUIRED
+>
+
+<!ELEMENT séjour  ( #PCDATA )>
+<!ATTLIST séjour
+surface-m2 CDATA #REQUIRED
+fenetre CDATA #IMPLIED
+>
+
+<!ELEMENT bureau  ( #PCDATA )>
+<!ATTLIST bureau
+surface-m2 CDATA #REQUIRED
+>
+
+<!ELEMENT maisons  ( maison+ )>
+
+<!ELEMENT étage  ( mirador? , terrasse? , chambre* , salledeBain? )>

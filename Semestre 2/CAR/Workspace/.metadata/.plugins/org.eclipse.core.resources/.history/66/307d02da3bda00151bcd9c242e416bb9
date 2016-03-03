@@ -1,0 +1,25 @@
+package Strategy;
+
+import Exception.FTPRequestPasswordException;
+import Exceptions.RequestPASSException;
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestPASS implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+		try {
+			if(ftp.getClient().isPassword(request[1])){
+				ftp.getWriter().println(230 + " Password ok");
+				System.out.println(ftp.getClient() + " is now connected");
+			}else{
+				throw new RequestPASSException(ftp);
+			}			
+		} catch (Exception e) {
+			throw new FTPRequestPasswordException(ftp);
+		}
+	}
+
+
+}

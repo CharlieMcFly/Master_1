@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personnes xmlns="http://www.fil.univ-lille1.fr/labd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.fil.univ-lille1.fr/labd personnes.xsd">
+	<personne id="p-034">
+		<nom>Martin</nom><prénom>Jules</prénom>
+		<sexe>M</sexe>
+		<naissance>
+			<date>1918-04-12</date>
+			<lieu>Angers</lieu>
+		</naissance>
+		<décès>
+			<date>1973-08-22</date>
+			<lieu>Paris</lieu>
+		</décès>
+	</personne>
+	<personne id="p-002">
+		<nom>Dupond</nom><prénom>Yvonne</prénom>
+		<sexe>F</sexe>
+		<naissance>
+			<date>1922-10-13</date>
+			<lieu>Angers</lieu>
+		</naissance>
+		<décès>
+			<date>2000-11-07</date>
+			<lieu>Angers</lieu>
+		</décès>
+	</personne>
+	<personne id="p-003">
+		<nom>Dupond</nom><prénom>Paul</prénom>
+		<sexe>M</sexe>
+		<naissance>
+			<date>1925-01-26</date>
+			<lieu>Angers</lieu>
+		</naissance>
+	</personne>
+	<personne id="p-098">
+		<nom>Martin</nom><prénom>Henri</prénom>
+		<sexe>M</sexe>
+		<naissance>
+			<date>1931-08-14</date>
+			<lieu>Paris</lieu>
+		</naissance>
+	</personne>
+	<personne id="p-123">
+		<nom>Martin</nom><prénom>Christine</prénom>
+		<sexe>F</sexe>
+		<naissance>
+			<date>1956-09-21</date>
+			<lieu>Paris</lieu>
+		</naissance>
+	</personne>
+</personnes>

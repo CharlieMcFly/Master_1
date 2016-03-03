@@ -1,0 +1,11 @@
+package Exceptions;
+
+import Serveur.FtpRequest;
+
+public class RequestException extends Exception {
+
+	public RequestException(String erreur){
+		super(erreur);
+	}
+
+}

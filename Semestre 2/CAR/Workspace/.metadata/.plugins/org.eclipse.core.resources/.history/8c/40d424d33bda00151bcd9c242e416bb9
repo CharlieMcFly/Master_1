@@ -1,0 +1,9 @@
+package Exceptions;
+
+public class RequestPASSException extends RequestException {
+
+	public RequestPASSException(String erreur) {
+		super("Password incorrect");
+	}
+
+}

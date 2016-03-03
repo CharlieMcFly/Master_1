@@ -1,0 +1,7 @@
+count(//key[./../..=dict]/child::text()="Track ID")
+//string[./preceding-sibling/child::text()="Album"]/child::text
+//key[./preceding-sibling/child::text()="Genre"]/child::text
+count(//key[./child::text()="Jazz"])
+//key[./preceding-sibling/child::text()="Genre"][not(./text=preceding::*/text())]/child::text
+//string[./preceding-sibling/child::text()="Name"][../key[./child::text()="Play Count"]/following-sibling/child::text()>=1]
+//string[./preceding-sibling/child::text()="Name"][../key[./child::text()="Play Count"]/following-sibling/child::text()=0]

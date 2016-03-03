@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CLASSIFICATION>
+	<FAMILY>
+		<NAME>Araceae</NAME>
+		<SPECIES>Arisaema triphyllum</SPECIES>
+		<SPECIES>Arum italicum</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Aristolochiaceae</NAME>
+		<SPECIES>Asarum canadense</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Asclepiadaceae</NAME>
+		<SPECIES>Asclepias tuberosa</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Berberidaceae</NAME>
+		<SPECIES>Podophyllum peltatum</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Compositae</NAME>
+		<SPECIES>Rudbeckia hirta</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Fumariaceae</NAME>
+		<SPECIES>Dicentra cucullaria</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Gentianaceae</NAME>
+		<SPECIES>Gentiana</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Lamiaceae</NAME>
+		<SPECIES>Monarda didyma</SPECIES>
+		<SPECIES>Thymus serpyllum</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Liliaceae</NAME>
+		<SPECIES>Erythronium americanum</SPECIES>
+		<SPECIES>Trillium grandiflorum</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Lobeliaceae</NAME>
+		<SPECIES>Lobelia cardinalis</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Oenotheraceae</NAME>
+		<SPECIES>Oenothera</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Papaveraceae</NAME>
+		<SPECIES>Eschscholzia californica</SPECIES>
+		<SPECIES>Papaver rhoeas</SPECIES>
+		<SPECIES>Sanguinaria canadensis</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Polemoniaceae</NAME>
+		<SPECIES>Phlox divaricata</SPECIES>
+		<SPECIES>Polemonium caeruleum</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Portulacaceae</NAME>
+		<SPECIES>Claytonia Virginica</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Primulaceae</NAME>
+		<SPECIES>Dodecatheon</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Ranunculaceae</NAME>
+		<SPECIES>Anemone blanda</SPECIES>
+		<SPECIES>Aquilegia canadensis</SPECIES>
+		<SPECIES>Caltha palustris</SPECIES>
+		<SPECIES>Cimicifuga</SPECIES>
+		<SPECIES>Hepatica americana</SPECIES>
+		<SPECIES>Ranunculus</SPECIES>
+	</FAMILY>
+	<FAMILY>
+		<NAME>Rosaceae</NAME>
+		<SPECIES>Fragaria vesca</SPECIES>
+		<SPECIES>Potentilla</SPECIES>
+	</FAMILY>
+</CLASSIFICATION>

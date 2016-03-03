@@ -1,0 +1,20 @@
+package Exceptions;
+
+import Serveur.FtpRequest;
+
+public class RequestUSERException extends RequestException {
+
+	public RequestUSERException(FtpRequest ftp) {
+		super("Unknown user");
+		ftp.getWriter().println(430 + " Username Incorrect");
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6702527114818953090L;
+
+	
+	
+
+}

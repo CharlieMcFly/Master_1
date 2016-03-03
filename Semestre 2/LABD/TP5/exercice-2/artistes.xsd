@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xsi:schemaLocation="http://www.w3.org/2001/XMLSchema
+                         http://www.w3.org/2001/XMLSchema.xsd"
+            xmlns="http://labd/art"
+            targetNamespace="http://labd/art"
+            elementFormDefault="qualified">
+
+  <!-- la racine du document -->
+  
+  <xsd:element name="art">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="artistes"/>
+        <xsd:element ref="mouvements"/>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:keyref name="refMouv" refer="clefMouv">
+      <xsd:selector xpath="./artistes/artiste/période"/>
+      <xsd:field xpath="@mouv"/>
+    </xsd:keyref>
+  </xsd:element>
+
+  <!-- les artistes -->
+  <xsd:element name="artistes">
+    <xsd:complexType>
+      <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="artiste"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="artiste">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nom" type="xsd:string"/>
+        <xsd:element name="prénom" type="xsd:string"/>
+        <xsd:element name="naissance" type="xsd:gYear" minOccurs="0"/>
+        <xsd:element name="décès" type="xsd:gYear" minOccurs="0"/>  
+        <xsd:element ref="période" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="période">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="début" type="xsd:gYear" minOccurs="0"/>
+        <xsd:element name="fin" type="xsd:gYear" minOccurs="0"/>
+      </xsd:sequence>
+      <xsd:attribute name="mouv" type="xsd:string"/>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <!-- les mouvements artistiques -->
+  <xsd:element name="mouvements">
+    <xsd:complexType>
+      <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+        <xsd:element ref="mouvement"/>
+      </xsd:sequence>
+    </xsd:complexType>
+    <xsd:key name="clefMouv">
+      <xsd:selector xpath="mouvement"/>
+      <xsd:field xpath="nom"/>
+    </xsd:key>
+  </xsd:element>
+  
+  <xsd:element name="mouvement">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="nom" type="xsd:string"/>
+        <xsd:element name="description" type="xsd:string" minOccurs="0"/>
+        <xsd:element name="période" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+ 
+  
+</xsd:schema>

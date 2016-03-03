@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clubs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		
+   <club id="LOSC">
+			
+      <nom>Lille Olympique Sporting Club Lille Metropole</nom>
+			
+      <ville>Lille</ville>
+		
+   </club>
+		
+   <club id="SRFC">
+			
+      <nom>Stade Rennais Football Club</nom>
+			
+      <ville>Rennes</ville>
+		
+   </club>
+		
+   <club id="OL">
+			
+      <nom>Olympique Lyonnais</nom>
+			
+      <ville>Lyon</ville>
+		
+   </club>
+		
+   <club id="OM">
+			
+      <nom>Olympique de Marseille</nom>
+			
+      <ville>Marseille</ville>
+		
+   </club>
+		
+   <club id="PSG">
+			
+      <nom>Paris Saint-Germain Football Club</nom>
+			
+      <ville>Paris</ville>
+		
+   </club>
+		
+   <club id="MHSC">
+			
+      <nom>Montpellier Herault Sport Club</nom>
+			
+      <ville>Montpellier</ville>
+		
+   </club>
+		
+   <club id="ASSE">
+			
+      <nom>Association Sportive de Saint-Etienne</nom>
+			
+      <ville>Saint Etienne</ville>
+		
+   </club>
+		
+   <club id="GB">
+			
+      <nom>Girondins de Bordeaux</nom>
+			
+      <ville>Bordeaux</ville>
+		
+   </club>
+		
+   <club id="FCL">
+			
+      <nom>Football Club Lorient</nom>
+			
+      <ville>Lorient</ville>
+		
+   </club>
+		
+   <club id="ASMFC">
+			
+      <nom>Association sportive Monaco Football Club</nom>
+			
+      <ville>Monaco</ville>
+		
+   </club>
+		
+   <club id="OGCN">
+			
+      <nom>Olympique Gymnaste Club Nice Cote d'Azur</nom>
+			
+      <ville>Nice</ville>
+		
+   </club>
+		
+   <club id="SR">
+			
+      <nom>Stade de Reims</nom>
+			
+      <ville>Reims</ville>
+		
+   </club>
+		
+   <club id="SCB">
+			
+      <nom>Sporting Club de Bastia</nom>
+			
+      <ville>Bastia</ville>
+		
+   </club>
+		
+   <club id="ETGFC">
+			
+      <nom>Evian Thonon Gaillard Football Club</nom>
+			
+      <ville>Evian</ville>
+		
+   </club>
+		
+   <club id="EAG">
+			
+      <nom>En Avant de Guingamp</nom>
+			
+      <ville>Guingamp</ville>
+		
+   </club>
+		
+   <club id="TFC">
+			
+      <nom>Toulouse Football Club</nom>
+			
+      <ville>Toulouse</ville>
+		
+   </club>
+		
+   <club id="FCN">
+			
+      <nom>Football Club de Nantes</nom>
+			
+      <ville>Nantes</ville>
+		
+   </club>
+		
+   <club id="SMC">
+			
+      <nom>Stade Malherbe Caen</nom>
+			
+      <ville>Caen</ville>
+		
+   </club>
+		
+   <club id="RCL">
+			
+      <nom>Racing Club de Lens</nom>
+			
+      <ville>Lens</ville>
+		
+   </club>
+		
+   <club id="FCM">
+			
+      <nom>Football Club de Metz</nom>
+			
+      <ville>Metz</ville>
+		
+   </club>
+	
+</clubs>

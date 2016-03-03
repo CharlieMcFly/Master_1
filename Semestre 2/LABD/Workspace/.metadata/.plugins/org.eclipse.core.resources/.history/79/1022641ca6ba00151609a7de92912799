@@ -1,0 +1,29 @@
+import java.util.Iterator;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.helpers.DefaultHandler;
+
+
+public class MyHandler extends DefaultHandler{
+	private double superficie ;
+	
+	public void startElement(String nameSpaceURI, 
+							 String localName, 
+							 String rawName, 
+							 Attributes attributs)  {
+		for (int i = 0; i < attributs.getLength(); i++) {
+			// ID de la maison
+			if(attributs.getValue(i).equals("id")){
+				System.out.println(localName);
+			}
+		}
+	}
+	
+	public void endElement(	String nameSpaceURI, 
+						   String localName, 
+						   String rawName)  {
+		       
+	}
+	
+
+}

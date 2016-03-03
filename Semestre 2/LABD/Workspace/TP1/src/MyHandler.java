@@ -1,0 +1,44 @@
+import org.xml.sax.Attributes;
+import org.xml.sax.helpers.DefaultHandler;
+
+
+public class MyHandler extends DefaultHandler{
+	private double superficie = 0;
+	private double profondeur = 0;
+	private double profBloquante = -1;
+	
+	public void startElement(String nameSpaceURI, 
+							 String localName, 
+							 String rawName, 
+							 Attributes attributs)  {
+			this.profondeur++;
+			for (int i = 0; i < attributs.getLength(); i++) {
+				// ID de la maison
+				if(attributs.getLocalName(i).equals("id")){
+					System.out.println(localName + " " + attributs.getValue(i) + " :");
+				}
+				if(attributs.getLocalName(i).equals("surface-m2")){
+					if(profBloquante == -1 ){
+						profBloquante = profondeur;
+						superficie += Double.valueOf(attributs.getValue(i)).doubleValue();
+					}else if(profondeur == profBloquante){
+						superficie += Double.valueOf(attributs.getValue(i)).doubleValue();
+					}else{
+						// Ne rien faire
+					}
+				} 
+			}
+	}
+	
+	public void endElement(	String nameSpaceURI, 
+						   String localName, 
+						   String rawName)  {
+			this.profondeur--;
+		    if(localName.equals("maison")){
+		    	System.out.println("\tsuperficie totale : " +superficie+" m2");
+		    	superficie = 0;
+		    }
+	}
+	
+
+}

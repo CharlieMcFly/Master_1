@@ -1,0 +1,17 @@
+fr.lri.swingstates.animations
+fr.lri.swingstates.applets
+fr.lri.swingstates.canvas
+fr.lri.swingstates.canvas.animations.transitions
+fr.lri.swingstates.canvas.transitions
+fr.lri.swingstates.debug
+fr.lri.swingstates.events
+fr.lri.swingstates.gestures
+fr.lri.swingstates.gestures.clement
+fr.lri.swingstates.gestures.clement.optimizers.TwoDimensions
+fr.lri.swingstates.gestures.dollar1
+fr.lri.swingstates.gestures.dtw
+fr.lri.swingstates.gestures.rubine
+fr.lri.swingstates.gestures.shapeMatching
+fr.lri.swingstates.sm
+fr.lri.swingstates.sm.jtransitions
+fr.lri.swingstates.sm.transitions

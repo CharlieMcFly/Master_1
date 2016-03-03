@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<championnat xsi:noNamespaceSchemaLocation="championnat.xsd" 
+	annee="2015" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<clubs>
+		<club id="LOSC">
+			<nom>Lille Olympique Sporting Club Lille Metropole</nom>
+			<ville>Lille</ville>
+		</club>
+		<club id="SRFC">
+			<nom>Stade Rennais Football Club</nom>
+			<ville>Rennes</ville>
+		</club>
+		<club id="OL">
+			<nom>Olympique Lyonnais</nom>
+			<ville>Lyon</ville>
+		</club>
+		<club id="OM">
+			<nom>Olympique de Marseille</nom>
+			<ville>Marseille</ville>
+		</club>
+		<club id="PSG">
+			<nom>Paris Saint-Germain Football Club</nom>
+			<ville>Paris</ville>
+		</club>
+		<club id="MHSC">
+			<nom>Montpellier Herault Sport Club</nom>
+			<ville>Montpellier</ville>
+		</club>
+		<club id="ASSE">
+			<nom>Association Sportive de Saint-Etienne</nom>
+			<ville>Saint Etienne</ville>
+		</club>
+		<club id="GB">
+			<nom>Girondins de Bordeaux</nom>
+			<ville>Bordeaux</ville>
+		</club>
+		<club id="FCL">
+			<nom>Football Club Lorient</nom>
+			<ville>Lorient</ville>
+		</club>
+		<club id="ASMFC">
+			<nom>Association sportive Monaco Football Club</nom>
+			<ville>Monaco</ville>
+		</club>
+		<club id="OGCN">
+			<nom>Olympique Gymnaste Club Nice Cote d'Azur</nom>
+			<ville>Nice</ville>
+		</club>
+		<club id="SR">
+			<nom>Stade de Reims</nom>
+			<ville>Reims</ville>
+		</club>
+		<club id="SCB">
+			<nom>Sporting Club de Bastia</nom>
+			<ville>Bastia</ville>
+		</club>
+		<club id="ETGFC">
+			<nom>Evian Thonon Gaillard Football Club</nom>
+			<ville>Evian</ville>
+		</club>
+		<club id="EAG">
+			<nom>En Avant de Guingamp</nom>
+			<ville>Guingamp</ville>
+		</club>
+		<club id="TFC">
+			<nom>Toulouse Football Club</nom>
+			<ville>Toulouse</ville>
+		</club>
+		<club id="FCN">
+			<nom>Football Club de Nantes</nom>
+			<ville>Nantes</ville>
+		</club>
+		<club id="SMC">
+			<nom>Stade Malherbe Caen</nom>
+			<ville>Caen</ville>
+		</club>
+		<club id="RCL">
+			<nom>Racing Club de Lens</nom>
+			<ville>Lens</ville>
+		</club>
+		<club id="FCM">
+			<nom>Football Club de Metz</nom>
+			<ville>Metz</ville>
+		</club>
+	</clubs>
+	<journees>
+		<journee num="1">
+			<date>2014-08-09</date>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>PSG</invite>
+				<score>2 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>OM</invite>
+				<score>3 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>SMC</invite>
+				<score>0 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>ASSE</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>FCM</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>GB</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>RCL</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>TFC</invite>
+				<score>3 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>SRFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>FCL</invite>
+				<score>1 2</score>
+			</rencontre>
+		</journee>
+		<journee num="2">
+			<date>2014-08-16</date>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>LOSC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>SCB</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>EAG</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>OGCN</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>FCN</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>ETGFC</invite>
+				<score>6 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>OL</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>MHSC</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>SR</invite>
+				<score>3 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>ASMFC</invite>
+				<score>4 1</score>
+			</rencontre>
+		</journee>
+		<journee num="3">
+			<date>2014-08-23</date>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>PSG</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>OM</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>TFC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>FCL</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>FCM</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>GB</invite>
+				<score>1 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>SMC</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>RCL</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>SRFC</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>ASMFC</invite>
+				<score>0 1</score>
+			</rencontre>
+		</journee>
+		<journee num="4">
+			<date>2014-08-30</date>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>OGCN</invite>
+				<score>4 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>LOSC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>SRFC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>SR</invite>
+				<score>4 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>EAG</invite>
+				<score>4 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>MHSC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>ETGFC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>SCB</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>OL</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>ASSE</invite>
+				<score>5 0</score>
+			</rencontre>
+		</journee>
+		<journee num="5">
+			<date>2014-09-13</date>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>ASMFC</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>PSG</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>RCL</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>FCL</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>FCM</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>TFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>SMC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>FCN</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>GB</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>OM</invite>
+				<score>1 3</score>
+			</rencontre>
+		</journee>
+		<journee num="6">
+			<date>2014-09-20</date>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>ETGFC</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>SRFC</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>SR</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>SCB</invite>
+				<score>3 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>OGCN</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>SMC</invite>
+				<score>3 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>MHSC</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>ASSE</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>EAG</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>OL</invite>
+				<score>1 1</score>
+			</rencontre>
+		</journee>
+		<journee num="7">
+			<date>2014-09-24</date>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>OM</invite>
+				<score>0 5</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>TFC</invite>
+				<score>0 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>FCN</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>RCL</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>FCM</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>FCL</invite>
+				<score>4 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>ASMFC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>LOSC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>PSG</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>GB</invite>
+				<score>1 1</score>
+			</rencontre>
+		</journee>
+		<journee num="8">
+			<date>2014-09-27</date>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>OGCN</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>PSG</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>SCB</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>ETGFC</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>SR</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>EAG</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>SRFC</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>SMC</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>OL</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>ASSE</invite>
+				<score>2 1</score>
+			</rencontre>
+		</journee>
+		<journee num="9">
+			<date>2014-10-04</date>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>GB</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>OM</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>FCL</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>FCM</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>MHSC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>RCL</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>TFC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>FCN</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>LOSC</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>ASMFC</invite>
+				<score>1 1</score>
+			</rencontre>
+		</journee>
+		<journee num="10">
+			<date>2014-10-18</date>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>PSG</invite>
+				<score>1 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>ASSE</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>EAG</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>SRFC</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>ETGFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>SR</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>SCB</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>TFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>SMC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>MHSC</invite>
+				<score>5 1</score>
+			</rencontre>
+		</journee>
+		<journee num="11">
+			<date>2014-10-24</date>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>RCL</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>GB</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>ASMFC</invite>
+				<score>1 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>FCL</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>FCN</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>MHSC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>LOSC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>OGCN</invite>
+				<score>2 7</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>FCM</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>OM</invite>
+				<score>1 0</score>
+			</rencontre>
+		</journee>
+		<journee num="12">
+			<date>2014-11-01</date>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>SR</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>PSG</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>SCB</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>ASSE</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>SMC</invite>
+				<score>3 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>ETGFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>OL</invite>
+				<score>1 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>SRFC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>TFC</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>RCL</invite>
+				<score>2 1</score>
+			</rencontre>
+		</journee>
+		<journee num="13">
+			<date>2014-11-08</date>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>FCL</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>GB</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>MHSC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>FCN</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>OGCN</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>FCM</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>EAG</invite>
+				<score>3 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>LOSC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>ASMFC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>OM</invite>
+				<score>2 0</score>
+			</rencontre>
+		</journee>
+		<journee num="14">
+			<date>2014-11-22</date>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>PSG</invite>
+				<score>2 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>OL</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>SRFC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>RCL</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>SMC</invite>
+				<score>2 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>SR</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>ASSE</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>TFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>GB</invite>
+				<score>3 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>ETGFC</invite>
+				<score>1 0</score>
+			</rencontre>
+		</journee>
+		<journee num="15">
+			<date>2014-11-29</date>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>FCN</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>OGCN</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>MHSC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>FCM</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>SCB</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>ASMFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>FCL</invite>
+				<score>2 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>LOSC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>EAG</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>OL</invite>
+				<score>3 0</score>
+			</rencontre>
+		</journee>
+		<journee num="16">
+			<date>2014-12-03</date>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>OM</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>TFC</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>RCL</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>ETGFC</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>SMC</invite>
+				<score>5 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>GB</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>ASSE</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>SRFC</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>PSG</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>SR</invite>
+				<score>2 1</score>
+			</rencontre>
+		</journee>
+		<journee num="17">
+			<date>2014-12-06</date>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>ASMFC</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>FCN</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>FCL</invite>
+				<score>3 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>OGCN</invite>
+				<score>2 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>MHSC</invite>
+				<score>0 4</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>SCB</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>OL</invite>
+				<score>2 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>LOSC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>EAG</invite>
+				<score>2 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>FCM</invite>
+				<score>3 1</score>
+			</rencontre>
+		</journee>
+		<journee num="18">
+			<date>2014-12-13</date>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>SMC</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>GB</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>SRFC</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>FCM</invite>
+				<score>3 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>RCL</invite>
+				<score>3 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>ETGFC</invite>
+				<score>3 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>ASSE</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>PSG</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>TFC</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>OM</invite>
+				<score>1 0</score>
+			</rencontre>
+		</journee>
+		<journee num="19">
+			<date>2014-12-20</date>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>OGCN</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>MHSC</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>SCB</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>FCN</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>ASMFC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>SR</invite>
+				<score>1 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>EAG</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>LOSC</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>ETGFC</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>OL</invite>
+				<score>0 5</score>
+			</rencontre>
+		</journee>
+		<journee num="20">
+			<date>2015-01-10</date>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>OM</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>PSG</invite>
+				<score>4 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>SRFC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>RCL</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>SMC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>FCL</invite>
+				<score>3 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>ASSE</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>TFC</invite>
+				<score>3 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>FCM</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>GB</invite>
+				<score>0 0</score>
+			</rencontre>
+		</journee>
+		<journee num="21">
+			<date>2015-01-17</date>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>OGCN</invite>
+				<score>1 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>OL</invite>
+				<score>0 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>SR</invite>
+				<score>4 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>LOSC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>MHSC</invite>
+				<score>2 3</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>FCN</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>SCB</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>ETGFC</invite>
+				<score>4 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>ASSE</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>EAG</invite>
+				<score>2 1</score>
+			</rencontre>
+		</journee>
+		<journee num="22">
+			<date>2015-01-24</date>
+			<rencontre>
+				<receveur>OGCN</receveur>
+				<invite>OM</invite>
+				<score>2 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>LOSC</receveur>
+				<invite>ASMFC</invite>
+				<score>0 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SCB</receveur>
+				<invite>GB</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>EAG</receveur>
+				<invite>FCL</invite>
+				<score>3 2</score>
+			</rencontre>
+			<rencontre>
+				<receveur>MHSC</receveur>
+				<invite>FCN</invite>
+				<score>4 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ETGFC</receveur>
+				<invite>TFC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OL</receveur>
+				<invite>FCM</invite>
+				<score>2 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SR</receveur>
+				<invite>RCL</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SRFC</receveur>
+				<invite>SMC</invite>
+				<score>1 4</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASSE</receveur>
+				<invite>PSG</invite>
+				<score>0 1</score>
+			</rencontre>
+		</journee>
+		<journee num="23">
+			<date>2015-01-31</date>
+			<rencontre>
+				<receveur>PSG</receveur>
+				<invite>SRFC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>OM</receveur>
+				<invite>ETGFC</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>RCL</receveur>
+				<invite>SCB</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCL</receveur>
+				<invite>MHSC</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCM</receveur>
+				<invite>OGCN</invite>
+				<score>0 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>FCN</receveur>
+				<invite>LOSC</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>TFC</receveur>
+				<invite>SR</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>SMC</receveur>
+				<invite>ASSE</invite>
+				<score>1 0</score>
+			</rencontre>
+			<rencontre>
+				<receveur>GB</receveur>
+				<invite>EAG</invite>
+				<score>1 1</score>
+			</rencontre>
+			<rencontre>
+				<receveur>ASMFC</receveur>
+				<invite>OL</invite>
+				<score>0 0</score>
+			</rencontre>
+		</journee>
+	</journees>
+</championnat>

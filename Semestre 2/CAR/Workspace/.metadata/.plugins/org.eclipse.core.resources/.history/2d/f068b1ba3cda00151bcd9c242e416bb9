@@ -1,0 +1,9 @@
+package Exceptions;
+
+public class RequestDroitException extends RequestException {
+
+	public RequestDroitException(FtpRequest ftp) {
+		super(erreur);
+	}
+
+}

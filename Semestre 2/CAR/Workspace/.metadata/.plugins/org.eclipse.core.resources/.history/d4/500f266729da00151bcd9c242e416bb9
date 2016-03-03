@@ -1,0 +1,10 @@
+package Strategy;
+
+public class RequestUSER implements Request{
+
+	public void doRequest() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

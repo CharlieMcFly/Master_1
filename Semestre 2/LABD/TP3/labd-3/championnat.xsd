@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="date" type="xs:string"/>
+	<xs:element name="score" type="xs:string"/>
+	<xs:element name="ville" type="xs:string"/>
+	<xs:element name="championnat">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="clubs"/>
+				<xs:element ref="journées"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="clubs">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="club" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="club">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="nom"/>
+				<xs:element ref="ville"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="journées">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="journée" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="clubReceveur" type="xs:string"/>
+	<xs:element name="clubInvité" type="xs:string"/>
+	<xs:element name="journée">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="date"/>
+				<xs:element ref="rencontre" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="num" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="nom" type="xs:string"/>
+	<xs:element name="rencontre">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="clubReceveur"/>
+				<xs:element ref="clubInvité"/>
+				<xs:element ref="score"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

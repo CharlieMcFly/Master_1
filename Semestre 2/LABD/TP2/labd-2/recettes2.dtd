@@ -1,0 +1,26 @@
+<!ELEMENT cuisine (categorie+,ingredient+,recette+)>
+
+<!-- les categories -->
+<!ELEMENT categorie (#PCDATA|categorie)*>
+<!ATTLIST categorie id ID #REQUIRED>
+
+<!-- les ingredients -->
+<!ELEMENT ingredient (#PCDATA)>
+<!ATTLIST ingredient nom ID #REQUIRED>
+
+<!-- les recettes -->
+<!ELEMENT recette (titre, ingredients, texte, conseil?)>
+<!ELEMENT titre (#PCDATA)>
+<!ATTLIST recette categ IDREFS #REQUIRED
+                  temps-cuisson CDATA #IMPLIED
+                  temps-preparation CDATA #IMPLIED
+                  >
+<!ELEMENT ingredients (ing-recette)+>
+<!ELEMENT ing-recette (#PCDATA)>
+<!ATTLIST ing-recette ingredient IDREF #REQUIRED>
+<!ELEMENT conseil (#PCDATA)>
+<!ELEMENT texte (etape)+>
+<!ELEMENT etape (#PCDATA)>
+
+
+

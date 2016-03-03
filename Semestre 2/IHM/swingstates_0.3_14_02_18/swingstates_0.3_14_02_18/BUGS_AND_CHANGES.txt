@@ -1,0 +1,13 @@
+SwingStates, Version 0.3
+
+Copyright (c) Université Paris-Sud XI, 2007.
+
+- fixed getAbsoluteRectangle and getAbsoluteEllipse in class CText (the parameters w and h were not taken into account + the reference point was set to (0,1) without any rationale)
+
+- moved transitions *OnShape and *OnTag to a new package named fr.lri.swingstates.canvas.transitions
+
+- renamed *OnTag transitions to *OnJTag transitions in new package fr.lri.swingstates.sm.jtransitions
+
+- fixed bug about picking that occurred with Java 1.7
+
+- and other internal changes…

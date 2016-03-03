@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XSD document created with EditiX XML Editor (http://www.editix.com) at Thu Feb 04 11:31:59 CET 2016 -->
+
+<xs:schema
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.a.com"
+	xmlns:b="http://www.b.com"
+	>
+
+	<xs:import namespace="http://www.b.com" schemaLocation="b.xsd"/>
+
+	 <xs:element name="A">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="b:B"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

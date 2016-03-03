@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://labd/art"
+   xsi:schemaLocation="http://labd/art catalogue.xsd">
+                         
+   <musée>Centre Beaubourg</musée>
+   <oeuvre genre="peinture">
+     <titre>Les demoiselles d'Avignon</titre>
+     <auteur>
+       <nom>Picasso</nom>
+       <prénom>Pablo</prénom>
+     </auteur>
+     <date>1907</date>
+   </oeuvre>
+   <oeuvre genre="peinture">
+     <titre>Le Chant du rossignol à minuit et la pluie matinale</titre>
+     <auteur>
+       <nom>Miro</nom>
+       <prénom>Joan</prénom>
+     </auteur>
+     <date>1940</date>
+   </oeuvre>
+   <oeuvre genre="peinture">
+     <titre>Terre Labourée</titre>
+     <auteur>
+       <nom>Miro</nom>
+       <prénom>Joan</prénom>
+     </auteur>
+     <date>1924</date>
+   </oeuvre>   
+   <oeuvre genre="sculpture">
+     <titre>Femme et Oiseau</titre>
+     <auteur>
+       <nom>Miro</nom>
+       <prénom>Joan</prénom>
+     </auteur>
+     <date>1967</date>
+   </oeuvre>   
+   <oeuvre genre="peinture">
+     <titre>L'empire des lumières</titre>
+     <auteur>
+       <nom>Magritte</nom>
+       <prénom>René</prénom>
+     </auteur>
+     <date>1954</date>
+   </oeuvre>  
+   <oeuvre genre="peinture">
+     <titre>Periscope (Hart Crane)</titre>
+     <auteur>
+       <nom>Johns</nom>
+       <prénom>Jasper</prénom>
+     </auteur>
+     <date>1963</date>
+   </oeuvre>
+</catalogue>

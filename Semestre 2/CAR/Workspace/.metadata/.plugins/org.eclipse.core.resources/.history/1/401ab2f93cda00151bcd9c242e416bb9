@@ -1,0 +1,12 @@
+package Exceptions;
+
+import Serveur.FtpRequest;
+
+public class RequestDroitException extends RequestException {
+
+	public RequestDroitException(FtpRequest ftp) {
+		super("Restriction Droit");
+		ftp.getWriter().println("Restriction sur vos droit");
+	}
+
+}

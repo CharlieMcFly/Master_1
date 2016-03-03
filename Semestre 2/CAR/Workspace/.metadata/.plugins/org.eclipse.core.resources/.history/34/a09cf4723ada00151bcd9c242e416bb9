@@ -1,0 +1,17 @@
+package Exceptions;
+
+public class RequestUSERException extends RequestException {
+
+	public RequestUSERException(String erreur) {
+		super(erreur);
+	}
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6702527114818953090L;
+
+	
+	
+
+}

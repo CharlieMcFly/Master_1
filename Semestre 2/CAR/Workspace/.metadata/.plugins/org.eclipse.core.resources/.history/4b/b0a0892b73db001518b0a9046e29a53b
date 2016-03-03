@@ -1,0 +1,35 @@
+package Serveur;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import Client.Client;
+
+public class ClientTest {
+
+	@Test
+	public void testConnectPassOk() {
+		Client u = new Client("a", "a");
+		boolean result = u.isPassword("a");
+		assertEquals(result, true);
+		assertEquals(u.isConnected(), true);
+	}
+
+	@Test
+	public void testConnectPassNotOk() {
+		Client u = new Client("a", "a");
+		boolean result = u.isPassword("e");
+		assertEquals(result, false);
+		assertEquals(u.isConnected(), false);
+	}
+
+	@Test
+	public void testConnectCharlie() {
+		Client u = new Client("Charlie", "123");
+		boolean result = u.isPassword("123");
+		assertEquals(result, true);
+		assertEquals(u.isConnected(), true);
+	}
+
+}

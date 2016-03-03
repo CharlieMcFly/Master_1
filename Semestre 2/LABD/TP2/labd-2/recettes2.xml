@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cuisine SYSTEM "./recettes2.dtd">
+<cuisine>
+  <categorie id="entree">
+Entrée
+    <categorie id="entreechaude">
+Entrée chaude
+      <categorie id="tartesalee">
+Tarte salée
+      </categorie>
+    </categorie>
+    <categorie id="entreefroide">
+Entrée froide
+      <categorie id="salade">
+Salade
+      </categorie>
+      <categorie id="painpoisson">
+Pain de poisson
+      </categorie>
+    </categorie>
+  </categorie>
+
+  <categorie id="accomp">
+Accompagnement
+    <categorie id="legume">
+Légume
+    </categorie>
+    <categorie id="pates">
+Pâtes
+    </categorie>
+    <categorie id="riz">
+Riz
+    </categorie>
+    <categorie id="semoule">
+Semoule
+    </categorie>
+  </categorie>
+
+  <categorie id="dessert">
+Dessert
+    <categorie id="charlotte">
+Charlotte
+    </categorie>
+    <categorie id="tartesucree">
+Tarte sucrée
+    </categorie>
+    <categorie id="gateau">
+Gâteau
+      <categorie id="gateaufruit">
+Gâteau aux fruits
+      </categorie>
+      <categorie id="gateauchocolat">
+Gâteau au chocolat
+      </categorie>
+      <categorie id="gateausec">
+Gâteaux secs
+      </categorie>
+    </categorie>
+  </categorie>
+
+  <ingredient nom="oeuf">oeuf</ingredient>
+  <ingredient nom="parmesan">parmesan</ingredient>
+  <ingredient nom="pain-de-mie">pain de mie</ingredient>
+  <ingredient nom="batavia">batavia</ingredient>
+  <ingredient nom="ail">ail</ingredient>
+  <ingredient nom="mayo">mayonnaise</ingredient>
+  <ingredient nom="xeres">vinaigre de xérès</ingredient>
+  <ingredient nom="huile-tournesol">huile de tournesol</ingredient>
+  <ingredient nom="pate-feuilletee">pâte feuilletée</ingredient>
+  <ingredient nom="tomate">tomate</ingredient>
+  <ingredient nom="jambon-cru">jambon cru</ingredient>
+  <ingredient nom="mozarella">mozarella</ingredient>
+  <ingredient nom="herbes-provence">herbes de Provence</ingredient>
+  <ingredient nom="sel">sel</ingredient>
+  <ingredient nom="poivre">poivre</ingredient>
+  <ingredient nom="farine">farine</ingredient>
+  <ingredient nom="beurre-sale">beurre salé</ingredient>
+  <ingredient nom="beurre">beurre</ingredient>
+  <ingredient nom="sucre">sucre en poudre</ingredient>
+  <ingredient nom="margarine">margarine</ingredient>
+  <ingredient nom="angélique">angélique confite</ingredient>
+  <ingredient nom="fleur-d-oranger">eau de fleur d'oranger</ingredient>
+  <ingredient nom="pain">pain</ingredient>
+  <ingredient nom="lait">lait</ingredient>
+  <ingredient nom="cerises">cerises</ingredient>
+  <ingredient nom="zeste-citron">zeste de citron</ingredient>
+  <ingredient nom="cannelle">cannelle en poudre</ingredient>
+  <ingredient nom="noisettes-poudre">noisettes en poudre</ingredient>
+  <ingredient nom="creme">crème fraiche</ingredient>
+  
+
+  <recette categ="entree entreefroide salade">
+    <titre>Batavia aux croûtons</titre>
+    <ingredients>
+      <ing-recette ingredient="batavia"/>
+      <ing-recette ingredient="pain-de-mie">3 tranches coupées en dés</ing-recette>
+      <ing-recette ingredient="parmesan">50g</ing-recette>
+      <ing-recette ingredient="ail">1 gousse</ing-recette>
+      <ing-recette ingredient="mayo">1 cuillère à soupe</ing-recette>
+      <ing-recette ingredient="xeres">1 cuillère à soupe</ing-recette>
+      <ing-recette ingredient="huile-tournesol">5 cuillères à soupe</ing-recette>
+
+    </ingredients>
+
+    <texte>
+      <etape>
+Epluchez, lavez et essorez la batavia
+</etape>
+      <etape>
+Dans un saladier, mélangez la mayonnaise, le vinaigre, 3 cuillères à soupe d'huile et l'ail pilé. Salez et poivrez.
+</etape>
+      <etape>
+Faites chauffer 2 cuillères à soupe d'huile dans une poêle et faites revenir les dés de pain 5 minutes à feu moyen en les retournant fréquemment.
+Retirez-les de la poêle et égouttez-les sur du papier absorbant.
+</etape>
+      <etape>
+Mettez la batavia dans le saladier, parsemez de parmesan coupé en copeaux à l'aide d'un économe. Ajoutez les croûtons par dessus.
+Mélangez et servez aussitôt.
+</etape>
+    </texte>
+  </recette>
+
+  <recette categ="entree entreechaude tartesalee" temps-cuisson="20 minutes">
+    <titre>Tarte fine à l'italienne</titre>
+    <ingredients>
+      <ing-recette ingredient="pate-feuilletee">1, prête à déroulée</ing-recette>
+      <ing-recette ingredient="tomate">6</ing-recette>
+      <ing-recette ingredient="jambon-cru">3 tranches</ing-recette>
+      <ing-recette ingredient="mozarella">mozarella</ing-recette>
+      <ing-recette ingredient="herbes-provence">1 cuillère à café</ing-recette>
+      <ing-recette ingredient="sel"/>
+      <ing-recette ingredient="poivre"/>
+    </ingredients>
+
+    <texte>
+      <etape>
+Préchauffez le four à 180 degré (thermostat 6)
+      </etape>
+      <etape>
+Déroulez la pâte sur la plque du four en gardant le papier sulfurisé.
+Posez une nouvelle feuille de papier sulfurisé par dessus et recouvrer avec des légumes secs. Faites cuire à blanc pendant 10 minutes.
+      </etape>
+      <etape>
+Pelez les tomates, coupez les en quatre et épépinez-les. Mettez-les dans une passoire et saupoudrez-les de 3 pincées de sel afin de les faire dégorger.
+      </etape>
+      <etape>
+Découpez le jambon en lanières et la mozzarella en tranches.
+      </etape>
+      <etape>
+Répartissez les lanières de jambon sur le fond de tarte.
+Essuyez un à un les morceaux de tomates à l'aide d'un papier absorbant
+et posez-les sur le jambon. Etalez les tranches de mozzarella.
+Parsemez d'herbes de provence et assaisonnez. 
+      </etape>
+      <etape>
+Remettez au four pendant 10 minutes. Cette tarte se déguste tiède.
+      </etape>
+    </texte>
+    <conseil>
+Vous pouvez remplacer la pâte feuilletée par une pâte à pizza et ajouter 100g de champignons de Paris.
+    </conseil>
+  </recette>
+  
+  <recette categ="gateau gateausec" temps-cuisson="10-12 minutes" temps-preparation="20 minutes + 1h repos de la pâte">
+  <titre>Sablés bretons à la fleur d'oranger</titre>
+  <ingredients>
+    <ing-recette ingredient="farine">150g</ing-recette>
+    <ing-recette ingredient="beurre-sale">100g</ing-recette>
+    <ing-recette ingredient="sucre">75g</ing-recette>
+    <ing-recette ingredient="oeuf">1 entier ou 2 jaunes</ing-recette>
+    <ing-recette ingredient="angélique">1 cuillère à soupe</ing-recette>
+    <ing-recette ingredient="fleur-d-oranger">1 petite cuillère à café</ing-recette>
+  </ingredients>
+  
+  <texte>
+      <etape>
+Mélangez du bout des doigts farine, beurre coupé en dés et sucre.
+Puis pressez et frottez entre les paumes des mains pour obtenir une sorte de gros sable (peut se faire avec un batteur électrique).
+      </etape>
+      <etape>
+Incorporez-y rapidement l'oeuf, l'angélique coupée menu et la fleur d'oranger.
+N'essayez pas d'obtenir une pâte lisse en pétrissant trop longtemps car votre pâte durcirait. Mettez-la en boule et laissez-la dans le réfrigérateur pendant 1 heure.
+      </etape>
+      <etape>
+Cuisson : allumez le four à thermostat 5/6. Etalez la pâte à 1/2 cm d'épaisseur environ.
+Passez le bord du verre ou l'emporte-pièce dans la farine avant de découper la pâte en rondelles.
+Déposez-les sur la plaque à pâtisserie beurrée.
+Faites cuire de 10 à 12 minutes à four moyen (thermostat 5/6).
+Laissez tiédir avant de les décoller de la plaque. Mettez-les sur une grille.
+Dégustez-les juste refroidis ou conservez-les das une boîte en fer hermétique.
+      </etape>
+    </texte>
+  </recette>
+  
+  <recette categ="dessert gateau gateaufruit" temps-cuisson="40 minutes" temps-preparation="25 minutes">
+  <titre>Clafoutis aux cerises</titre>
+  <ingredients>
+    <ing-recette ingredient="pain">6 petits, rassis</ing-recette>
+    <ing-recette ingredient="lait">200ml</ing-recette>
+    <ing-recette ingredient="cerises">300g (fraîches ou en pot)</ing-recette>
+    <ing-recette ingredient="margarine">100g</ing-recette>
+    <ing-recette ingredient="sucre">100g</ing-recette>
+    <ing-recette ingredient="oeuf">3</ing-recette>
+    <ing-recette ingredient="zeste-citron">Celui d'un demi citron, râpé</ing-recette>
+    <ing-recette ingredient="cannelle">une pointe</ing-recette>
+    <ing-recette ingredient="noisettes-poudre">50g</ing-recette>
+    <ing-recette ingredient="creme">125g</ing-recette>
+  </ingredients>
+  
+  <texte>
+      <etape>
+Oter la croûte du pain. Couper la mie en dés, la faire tremper dans le lait.
+Séparer les blancs des jaunes d'oeuf.
+      </etape>
+      <etape>
+Laver et dénoyauter les cerises.
+      </etape>
+      <etape>
+Mélanger la margarine avec le sucre et les jaunes d'oeuf pour en faire une masse mousseuse.Y ajouter le zeste de citron, la cannelle et les noisettes.
+      </etape>
+      <etape>
+Presser la mie, l'ajouter à la crème et mélanger.
+      </etape>
+      <etape>
+Battre les blancs en neige et les ajouter délicatement à la pâte.
+      </etape>
+      <etape>
+Graisser un plat avec la margarine. Le remplir de la moitié de la pâte, y répartir les cerises. Recouvrir du reste de la pâte.
+      </etape>
+      <etape>
+Mettre le clafoutis dans le four préchauffé et faire cuire environ 40 minutes.
+      </etape>
+    </texte>
+  </recette>
+</cuisine>

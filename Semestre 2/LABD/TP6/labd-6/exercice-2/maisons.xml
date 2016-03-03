@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<maisons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="maisons.xsd">
+  <maison id="1">
+    <RDC>
+      <cuisine surface-m2="12">Evier Inox. Mobilier encastre</cuisine>
+      <WC>Lavabo.</WC>
+      <sejour  surface-m2="38">Cheminee en pierre. Baie vitree</sejour>
+      <bureau surface-m2="14">Bibliotheque</bureau>
+      <garage/>
+    </RDC>
+    <etage>
+      <terrasse/>
+      <chambre surface-m2="28" fenetre="3">
+        <alcove surface-m2="8"/>
+      </chambre>
+      <chambre surface-m2="18"/>
+      <salledeBain surface-m2="15">
+        Douche, baignoire, lavabo
+      </salledeBain>
+    </etage>
+  </maison>
+  <maison id="2">
+    <RDC>
+      <cuisine surface-m2="12">en ruine</cuisine>
+      <garage/>
+    </RDC>
+    <etage>
+      <mirador surface-m2="1">
+        Vue sur la mer
+      </mirador>
+      <salledeBain surface-m2="15">Douche</salledeBain>
+    </etage>
+  </maison>
+  <maison id="3">
+    <RDC>
+      <sejour fenetre="4" surface-m2="40"/>
+    </RDC>
+    <etage>
+      <chambre surface-m2="17.5">Exposition plein sud</chambre>
+    </etage>
+  </maison>
+</maisons>

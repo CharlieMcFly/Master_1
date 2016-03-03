@@ -1,0 +1,73 @@
+package Stategy;
+
+import static org.mockito.Mockito.mock;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TemporaryFolder;
+import org.mockito.Mockito;
+
+import Client.Client;
+import Serveur.FtpRequest;
+import Strategy.RequestMKD;
+
+public class RequestMKDTest {
+
+	@Rule
+	public TemporaryFolder tmpFolder = new TemporaryFolder();
+
+	@Test
+	public void testAlreadyExists() throws IOException {
+		File folder = tmpFolder.newFolder("dossier");
+		(new File(folder.getAbsolutePath() + "/dossier2")).mkdirs();
+
+		FtpRequest ftp = mock(FtpRequest.class);
+		String [] request = {"MKD", "dossier2"};
+		Client c = new Client("Charlie","123");
+		Mockito.when(ftp.getClient()).thenReturn(c);
+		Mockito.when(ftp.getServerPath()).thenReturn(folder.getAbsolutePath());
+
+		RequestMKD mkd = new RequestMKD();
+		mkd.doRequest(ftp, request);
+
+		Mockito.verify(ftp).sendMessage("553 Directory already exists");
+	}
+	
+	@Test
+	public void testOK() throws IOException {
+		File folder = tmpFolder.newFolder("dossier");
+
+		FtpRequest ftp = mock(FtpRequest.class);
+		String [] request = {"MKD", "/dossier2"};
+		Client c = new Client("Charlie","123");
+		Mockito.when(ftp.getClient()).thenReturn(c);
+		
+		Mockito.when(ftp.getServerPath()).thenReturn(folder.getAbsolutePath());
+
+		RequestMKD mkd = new RequestMKD();
+		mkd.doRequest(ftp, request);
+
+		Mockito.verify(ftp).sendMessage("257 MKD command successfull");
+	}
+	
+	@Test
+	public void testNoRights() throws IOException {
+		File folder = tmpFolder.newFolder("dossier");
+		folder.setExecutable(false);
+		
+		FtpRequest ftp = mock(FtpRequest.class);
+		String [] request = {"MKD", "/dossier2"};
+		Client c = new Client("Charlie","123");
+		Mockito.when(ftp.getClient()).thenReturn(c);
+		Mockito.when(ftp.getServerPath()).thenReturn(folder.getAbsolutePath());
+
+		RequestMKD mkd = new RequestMKD();
+		mkd.doRequest(ftp, request);
+
+		Mockito.verify(ftp).sendMessage("550 Unable to make directory");
+	}
+
+}

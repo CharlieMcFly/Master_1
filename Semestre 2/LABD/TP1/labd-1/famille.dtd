@@ -1,0 +1,9 @@
+<!ELEMENT famille (nom, personne+)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT personne (prenom, age, (poids-kg|poids-lb), taille?)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT poids-lb (#PCDATA)>
+<!ELEMENT poids-kg (#PCDATA)>
+<!ELEMENT taille (#PCDATA)>
+<!ATTLIST personne pnumber ID #REQUIRED mere IDREF #IMPLIED pere IDREF #IMPLIED>

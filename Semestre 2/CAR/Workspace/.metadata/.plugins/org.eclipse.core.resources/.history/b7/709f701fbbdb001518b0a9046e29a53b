@@ -1,0 +1,76 @@
+package Stategy;
+
+import static org.mockito.Mockito.mock;
+
+import java.io.File;
+import java.io.IOException;
+
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TemporaryFolder;
+import org.mockito.Mockito;
+
+public class RequestRMDTest {
+
+	@Rule
+    public TemporaryFolder testFolder = new TemporaryFolder();
+	
+	@Test
+	public void testOk() throws IOException {
+		
+		File tempFolder = testFolder.newFolder("folder");
+		File tempFile = testFolder.newFile("folder/file.txt");
+		
+		Session session = mock(Session.class);
+		Request req = mock(Request.class);
+
+		Mockito.when(req.getSession()).thenReturn(session);	
+		Mockito.when(req.getArgument()).thenReturn("/file.txt");
+		Mockito.when(session.getServerPath()).thenReturn(tempFolder.getAbsolutePath());
+		
+		DELE dele = new DELE();
+		dele.execute(req);
+		
+
+		Mockito.verify(session).sendCommand("250 DELE command successfull");	
+	}
+	
+	@Test
+	public void testFileNotExist() throws IOException {
+		File tempFile = testFolder.newFile("file.txt");
+		
+		Session session = mock(Session.class);
+		Request req = mock(Request.class);
+
+		Mockito.when(req.getSession()).thenReturn(session);	
+		Mockito.when(req.getArgument()).thenReturn("sqdqsd");
+		Mockito.when(session.getServerPath()).thenReturn(tempFile.getAbsolutePath());
+		
+		DELE dele = new DELE();
+		dele.execute(req);
+		
+
+		Mockito.verify(session).sendCommand("550 No such file to delete");	
+	}
+	
+	@Test
+	public void testDirectory() throws IOException {
+		File tempFolder = testFolder.newFolder("folder");
+		(new File(tempFolder.getAbsolutePath() + "/test")).mkdirs();
+		
+		
+		Session session = mock(Session.class);
+		Request req = mock(Request.class);
+
+		Mockito.when(req.getSession()).thenReturn(session);	
+		Mockito.when(req.getArgument()).thenReturn("/test");
+		Mockito.when(session.getServerPath()).thenReturn(tempFolder.getAbsolutePath());
+		
+		DELE dele = new DELE();
+		dele.execute(req);
+		
+
+		Mockito.verify(session).sendCommand("550 No such file to delete");	
+	}
+
+}

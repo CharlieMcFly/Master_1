@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://labd/art"
+   xsi:schemaLocation="http://labd/art catalogue.xsd">
+   <musée>Musée BDA</musée>
+   <oeuvre genre="peinture">
+     <titre>Nature morte à la chaise cannée</titre>
+     <auteur>
+       <nom>Picasso</nom>
+       <prénom>Pablo</prénom>
+     </auteur>
+     <date>1912</date>
+   </oeuvre>
+   <oeuvre genre="peinture">
+     <titre>La trahison des images</titre>
+     <auteur>
+       <nom>Magritte</nom>
+       <prénom>René</prénom>
+     </auteur>
+     <date>1929</date>
+   </oeuvre>  
+</catalogue>

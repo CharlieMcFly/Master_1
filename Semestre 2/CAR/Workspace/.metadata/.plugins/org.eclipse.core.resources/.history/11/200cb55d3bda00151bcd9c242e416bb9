@@ -1,0 +1,12 @@
+package Strategy;
+
+import Serveur.FtpRequest;
+
+public class RequestPASS implements Request{
+
+	public void doRequest(FtpRequest ftp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

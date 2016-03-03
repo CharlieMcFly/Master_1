@@ -1,0 +1,12 @@
+package Exceptions;
+import java.io.IOException;
+
+
+public class ServeurInitException extends IOException {
+
+	public String getMessage() {
+		
+		return "Initialisation du serveur : KO ";
+	}
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xsi:schemaLocation="http://www.w3.org/2001/XMLSchema
+                         http://www.w3.org/2001/XMLSchema.xsd"
+            xmlns="http://labd/art"
+            targetNamespace="http://labd/art"
+            elementFormDefault="qualified">
+            
+  <xsd:element name="liste">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element ref="fichier" minOccurs="0" maxOccurs="unbounded"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  
+  <xsd:element name="fichier">
+    <xsd:complexType>
+      <xsd:attribute name="uri" type="xsd:anyURI" use="required"/>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

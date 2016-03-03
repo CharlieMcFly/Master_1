@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ie="http://xml.insee.fr/schema" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="http://xml.insee.fr/schema" version="1.1">
+  <xs:annotation>
+    <xs:documentation>Modélisation de la brique individu INSEE</xs:documentation>
+  </xs:annotation>
+  <xs:include schemaLocation="iso.xsd"/>
+  <xs:include schemaLocation="cog.xsd"/>
+  <xs:complexType name="IndividuType">
+    <xs:annotation>
+      <xs:documentation>Définition de l'état-civil d'un individu.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Noms" type="ie:NomsEtatCivilType"/>
+      <xs:element name="Prenoms" type="ie:PrenomsEtatCivilType">
+        <xs:annotation>
+          <xs:documentation>Élément obligatoire : laisser vide si le prénom n'est pas connu.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Naissance" type="ie:NaissanceType" minOccurs="0"/>
+      <xs:element name="Sexe" type="ie:SexeType" minOccurs="0"/>
+      <xs:element name="Deces" type="ie:DecesType" minOccurs="0"/>
+      <xs:element name="Filiation" type="ie:IndividuType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>La cardinalité est en général de 2 au maximum. Elle peut être supérieure dans certains cas d'adoption simple.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="IndividuSansFiliationType">
+    <xs:complexContent>
+      <xs:restriction base="ie:IndividuType">
+        <xs:sequence>
+          <xs:element name="Noms" type="ie:NomsEtatCivilType"/>
+          <xs:element name="Prenoms" type="ie:PrenomsEtatCivilType"/>
+          <xs:element name="Naissance" type="ie:NaissanceType" minOccurs="0"/>
+          <xs:element name="Sexe" type="ie:SexeType" minOccurs="0"/>
+          <xs:element name="Deces" type="ie:DecesType" minOccurs="0"/>
+          <xs:element name="Filiation" type="ie:IndividuType" minOccurs="0" maxOccurs="0"/>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="NomsEtatCivilType">
+    <xs:annotation>
+      <xs:documentation>Type regroupant le nom de famille (obligatoire), le nom d'usage et le pseudonyme.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="NomFamille" type="ie:ChaineFrancaisOfficielType">
+        <xs:annotation>
+          <xs:documentation>Nom de famille, anciennement nom patronymique, parfois appelé nom de naissance.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NomUsage" type="ie:ChaineFrancaisOfficielType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Nom d'usage (nom d'usage des époux, nom d'usage résultant de la filiation).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Pseudonyme" type="ie:LibelleType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Nom de fantaisie librement choisi par une personne pour masquer au public sa personnalité véritable dans l'exercice d'une activité particulière.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="NomDeFamilleSeulType">
+    <xs:complexContent>
+      <xs:restriction base="ie:NomsEtatCivilType">
+        <xs:sequence>
+          <xs:element name="NomFamille" type="ie:ChaineFrancaisOfficielType"/>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="PrenomsEtatCivilType">
+    <xs:annotation>
+      <xs:documentation>Type regroupant la liste des prénoms et le prénom usuel.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="PrenomUsuel" type="ie:ChaineFrancaisOfficielType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Tout prénom inscrit dans l'acte de naissance choisi comme prénom usuel.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Prenom" type="ie:ChaineFrancaisOfficielType" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Liste ordonnée des prénoms. Un prénom composé est considéré comme un seul prénom.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PrenomsOfficielsSeulsType">
+    <xs:complexContent>
+      <xs:restriction base="ie:PrenomsEtatCivilType">
+        <xs:sequence>
+          <xs:element name="Prenom" type="ie:ChaineFrancaisOfficielType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="NaissanceType">
+    <xs:annotation>
+      <xs:documentation>Date et lieu de naissance obligatoirement présents.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="DateNaissance" type="ie:DateSoupleType"/>
+      <xs:element name="LieuNaissance" type="ie:LieuType">
+        <xs:annotation>
+          <xs:documentation>Élément obligatoire : laisser vide si le lieu n'est pas connu.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="NumeroActeNaissance" type="ie:NumeroActeType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DecesType">
+    <xs:sequence>
+      <xs:element name="TypeDeces" type="ie:TypeDecesType" minOccurs="0"/>
+      <xs:element name="DateDeces" type="ie:DateSoupleType" minOccurs="0"/>
+      <xs:element name="LieuDeces" type="ie:LieuType" minOccurs="0"/>
+      <xs:element name="NumeroActeDeces" type="ie:NumeroActeType" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LieuType">
+    <xs:annotation>
+      <xs:documentation>Lieu en France ou à l'étranger. En France, la localité (commune) et la division territoriale (département) doivent être renseignées. À l'étranger, seul le pays est obligatoire.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Localite" type="ie:ElementLieuType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Contient la commune (code et/ou libellé) pour la France, ou le type de localité ad hoc pour l'étranger.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DivisionTerritoriale" type="ie:ElementLieuType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Contient le département (code et/ou libellé) pour la France, ou le type de division territoriale ad hoc pour l'étranger.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Pays" type="ie:PaysType" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Élément obligatoire pour un lieu hors de France.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ElementLieuType">
+    <xs:annotation>
+      <xs:documentation>Élément de lieu (localité, division territoriale, ...).</xs:documentation>
+    </xs:annotation>
+    <xs:simpleContent>
+      <xs:extension base="ie:LibelleType">
+        <xs:attribute use="optional" name="code" type="ie:LibelleType"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="PaysType">
+    <xs:simpleContent>
+      <xs:extension base="ie:LibelleType">
+        <xs:attribute use="optional" name="code">
+          <xs:simpleType>
+            <xs:union memberTypes="ie:CodePaysIsoType ie:CodePaysOuTerritoireEtrangerType"/>
+          </xs:simpleType>
+        </xs:attribute>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:simpleType name="SexeType">
+    <xs:annotation>
+      <xs:documentation>masculin=M, féminin=F</xs:documentation>
+      <xs:documentation>Sexe pouvant prendre la valeur F ou M.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="ie:CodeType">
+      <xs:enumeration value="M" dc:title="masculin"/>
+      <xs:enumeration value="F" dc:title="féminin"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="TypeDecesType">
+    <xs:restriction base="xs:token">
+      <xs:annotation>
+        <xs:documentation>N : décès "normal"</xs:documentation>
+        <xs:documentation>M : décès en mer</xs:documentation>
+        <xs:documentation>D : jugement déclaratif de décès</xs:documentation>
+        <xs:documentation>A : jugement déclaratif d'absence</xs:documentation>
+      </xs:annotation>
+      <xs:length value="1"/>
+      <xs:enumeration value="N"/>
+      <xs:enumeration value="M"/>
+      <xs:enumeration value="D"/>
+      <xs:enumeration value="A"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="NumeroActeType">
+    <xs:restriction base="xs:token">
+      <xs:maxLength value="9"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ORDER>
+	<PLANT>
+		<COMMON>Bloodroot</COMMON>
+		<QUANTITY>15</QUANTITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Hepatica</COMMON>
+		<QUANTITY>20</QUANTITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Phlox, Blue</COMMON>
+		<QUANTITY>5</QUANTITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Trillium</COMMON>
+		<QUANTITY>25</QUANTITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Adder's-Tongue</COMMON>
+		<QUANTITY>5</QUANTITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Cinquefoil</COMMON>
+		<QUANTITY>35</QUANTITY>
+	</PLANT>
+	<PLANT>
+		<COMMON>Gentian</COMMON>
+		<QUANTITY>15</QUANTITY>
+	</PLANT>
+</ORDER>

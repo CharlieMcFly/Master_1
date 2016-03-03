@@ -1,0 +1,2045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<clubs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <club>
+      <nom>Lille Olympique Sporting Club Lille Metropole</nom>
+      <ville>Lille</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 1</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Stade Rennais Football Club</nom>
+      <ville>Rennes</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>6 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>0 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 4</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 4</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Olympique Lyonnais</nom>
+      <ville>Lyon</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>4 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>5 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>2 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>0 5</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Olympique de Marseille</nom>
+      <ville>Marseille</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>4 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>3 3</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>0 5</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>2 1</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Paris Saint-Germain Football Club</nom>
+      <ville>Paris</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>5 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>4 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>2 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>4 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 1</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Montpellier Herault Sport Club</nom>
+      <ville>Montpellier</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>3 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>4 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>5 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 4</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>0 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Association Sportive de Saint-Etienne</nom>
+      <ville>Saint Etienne</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>5 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Girondins de Bordeaux</nom>
+      <ville>Bordeaux</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>4 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>0 5</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>1 1</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>0 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Football Club Lorient</nom>
+      <ville>Lorient</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>4 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>4 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>3 2</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Association sportive Monaco Football Club</nom>
+      <ville>Monaco</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>2 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>0 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>4 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>0 1</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Olympique Gymnaste Club Nice Cote d'Azur</nom>
+      <ville>Nice</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 1</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>4 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 7</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Stade de Reims</nom>
+      <ville>Reims</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>2 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>0 5</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>4 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>4 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Sporting Club de Bastia</nom>
+      <ville>Bastia</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>3 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>4 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>0 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 1</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Evian Thonon Gaillard Football Club</nom>
+      <ville>Evian</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>0 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>6 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>4 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>1 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>En Avant de Guingamp</nom>
+      <ville>Guingamp</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>2 7</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>5 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>3 2</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>4 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 1</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Toulouse Football Club</nom>
+      <ville>Toulouse</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>3 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Football Club de Nantes</nom>
+      <ville>Nantes</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 1</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>4 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Stade Malherbe Caen</nom>
+      <ville>Caen</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>4 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>0 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>3 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>2 2</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>5 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>1 4</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Racing Club de Lens</nom>
+      <ville>Lens</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>4 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>1 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>1 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Metz</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 1</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>0 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>3 3</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>0 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+   <club>
+      <nom>Football Club de Metz</nom>
+      <ville>Metz</ville>
+      <rencontres>
+         <domicile>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>1 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Sporting Club de Bastia</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade de Reims</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Rennais Football Club</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Stade Malherbe Caen</club>
+               <score>3 2</score>
+            </rencontre>
+            <rencontre>
+               <club>Paris Saint-Germain Football Club</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Girondins de Bordeaux</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association sportive Monaco Football Club</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 3</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>0 0</score>
+            </rencontre>
+         </domicile>
+         <exterieur>
+            <rencontre>
+               <club>Lille Olympique Sporting Club Lille Metropole</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Montpellier Herault Sport Club</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Gymnaste Club Nice Cote d'Azur</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>En Avant de Guingamp</club>
+               <score>0 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Evian Thonon Gaillard Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Association Sportive de Saint-Etienne</club>
+               <score>1 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Toulouse Football Club</club>
+               <score>3 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Racing Club de Lens</club>
+               <score>2 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique de Marseille</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club Lorient</club>
+               <score>3 1</score>
+            </rencontre>
+            <rencontre>
+               <club>Football Club de Nantes</club>
+               <score>0 0</score>
+            </rencontre>
+            <rencontre>
+               <club>Olympique Lyonnais</club>
+               <score>2 0</score>
+            </rencontre>
+         </exterieur>
+      </rencontres>
+   </club>
+</clubs>
+	

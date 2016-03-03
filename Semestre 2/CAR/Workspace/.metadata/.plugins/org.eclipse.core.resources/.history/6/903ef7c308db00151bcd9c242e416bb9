@@ -1,0 +1,17 @@
+package Strategy;
+
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestPASV implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+
+		final int port = 1234 + session.getClient().getAlea();
+		ftp.getDataService().initializePassive(port);
+		ftp.sendMessage("227 Entering passive mode " + ftp.getSocket().getAddress().replaceAll("\\.", ",") + "," + port / 256 + "," + port % 256);
+		
+	}
+
+}

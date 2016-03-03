@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/charlie/Documents/Cours/Semestre 2/IHM/Workspace/.metadata/.plugins/org.eclipse.jdt.core
+1489240984.index
+526670812.index
+3251458594.index

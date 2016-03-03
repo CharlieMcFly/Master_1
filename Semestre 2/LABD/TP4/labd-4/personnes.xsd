@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified"
+targetNamespace="http://www.fil.univ-lille1.fr/labd"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:bda="http://www.fil.univ-lille1.fr/labd">
+
+		<xs:element name="personnes">
+			<xs:complexType>
+				<xs:sequence>
+					<xs:element ref="bda:personne"/>
+				</xs:sequence>
+			</xs:complexType>
+		</xs:element>
+
+	<xs:element name="personne">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="nom" type="xs:string"/>
+				<xs:element name="prenom" type="xs:string"/>
+				<xs:element name="sexe" type="bda:type-sexe"/>
+				<xs:element name="naissance" type="bda:type-événement"/>
+				<xs:element name="décès" type="bda:type-événement"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:simpleType name="type-sexe">
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="M"/>
+			<xs:enumeration value="F"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="type-événement">
+		<xs:sequence>
+			<xs:element name="date" type="xs:date"/>
+			<xs:element name="lieu" type="xs:NCName"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

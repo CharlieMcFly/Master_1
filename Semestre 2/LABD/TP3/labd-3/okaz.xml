@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<stock nom="OccazEtNeufs">
+    <occases>
+        <item prix="2000">
+            <marque>Renault</marque>
+            <modele>Clio II</modele>
+            <annee>1998</annee>
+        </item>
+        <item prix="10000">
+            <marque>BMW</marque>
+            <modele>Serie 5</modele>
+            <annee>2002</annee>
+        </item>
+        <item prix="4800">
+            <marque>Peugeot</marque>
+            <modele>307</modele>
+            <annee>2001</annee>
+        </item>
+    </occases>
+    <neufs>
+        <item prix="18000">
+            <marque>Renault</marque>
+            <modele>Clio IV</modele>
+        </item>
+        <item prix="29900">
+            <marque>BMW</marque>
+            <modele>Serie 5</modele>
+        </item>
+    </neufs>
+</stock>

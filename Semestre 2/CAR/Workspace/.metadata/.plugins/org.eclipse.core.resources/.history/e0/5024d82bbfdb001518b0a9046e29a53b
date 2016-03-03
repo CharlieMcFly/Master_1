@@ -1,0 +1,62 @@
+package Stategy;
+
+
+
+import static org.mockito.Mockito.mock;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.Socket;
+
+import org.junit.Before;
+import org.junit.Rule;
+import org.junit.Test;
+import org.junit.rules.TemporaryFolder;
+import org.mockito.Mockito;
+
+import Serveur.DataService;
+import Serveur.FtpRequest;
+import Strategy.Request;
+
+
+
+public class RequestLISTTest {
+
+	@Rule
+    public TemporaryFolder testFolder = new TemporaryFolder();
+	
+	private FtpRequest ftp;
+	private DataService ds;
+	private OutputStream out;
+	private Socket socket;
+	
+	@Before
+    public void setUp() throws IOException {
+		ftp = mock(FtpRequest.class);
+		ds = mock(DataService.class);
+		out = mock(OutputStream.class);
+		socket = mock(Socket.class);
+		
+		Mockito.when(ftp.getDataService()).thenReturn(ds);
+		Mockito.when(ds.openDataStream()).thenReturn(socket);
+		Mockito.when(socket.getOutputStream()).thenReturn(out);
+    }
+	
+	@Test
+	public void test() throws IOException {
+
+		File tempFolder = testFolder.newFolder("dossier");
+		File tempFile = testFolder.newFile("dossier/fichier");
+		
+		Mockito.when(session.getServerPath()).thenReturn(tempFolder.getAbsolutePath());
+		
+		LIST list = new LIST();
+		
+		list.execute(req);
+		
+		Mockito.verify(session).sendCommand("226 Closing data connection");	
+	}
+
+}
+

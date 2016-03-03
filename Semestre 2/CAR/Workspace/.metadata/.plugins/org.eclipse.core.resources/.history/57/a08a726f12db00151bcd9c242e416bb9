@@ -1,0 +1,51 @@
+package Strategy;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+
+import Client.Client;
+import Exceptions.RequestException;
+import Serveur.FtpRequest;
+
+public class RequestRETR implements Request{
+
+	public void doRequest(FtpRequest ftp, String[] request)
+			throws RequestException {
+
+		FileInputStream fis = null;
+		OutputStream os = null;
+		try {
+			// Opens file
+			fis = new FileInputStream(ftp.getServerPath() + request[1]);
+			// Opens connection
+			session.sendCommand("150 File status okay; about to open data connection");
+			os = session.getDataConnectionService().open().getOutputStream();
+			// Sends through data socket
+			byte[] buffer = new byte[1024];
+			int nbBytes = 0;
+			while ((nbBytes = fis.read(buffer)) != -1) {
+				os.write(buffer, 0, nbBytes);
+			}
+			// Closes connection
+			session.sendCommand("226 Closing data connection");
+			session.getDataConnectionService().close();
+		} catch (FileNotFoundException e) {
+			session.sendCommand("550 Requested action not taken; file unavailable");
+		} catch (IOException ignore) {
+			// Closes connection if error during write
+			session.sendCommand("426 Connection closed, transfer aborted");
+			session.getDataConnectionService().close();
+		} finally {
+			try { fis.close(); } catch(Exception ignore) {};
+			try { os.close(); } catch(Exception ignore) {};
+		}
+	}
+
+	
+
+}
