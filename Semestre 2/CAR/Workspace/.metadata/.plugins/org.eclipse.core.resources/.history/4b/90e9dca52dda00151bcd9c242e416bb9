@@ -1,7 +1,0 @@
-package Strategy;
-
-public interface Request {
-	
-	void doRequest();
-
-}

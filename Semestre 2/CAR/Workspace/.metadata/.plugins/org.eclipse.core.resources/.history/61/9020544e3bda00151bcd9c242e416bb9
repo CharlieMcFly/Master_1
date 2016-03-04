@@ -1,9 +1,0 @@
-package Request;
-
-public class RequestException extends Exception {
-
-	public RequestException(String erreur){
-		super(erreur);
-	}
-
-}

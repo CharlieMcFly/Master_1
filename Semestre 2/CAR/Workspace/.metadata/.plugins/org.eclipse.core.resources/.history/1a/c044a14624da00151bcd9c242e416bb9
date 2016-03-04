@@ -1,5 +1,0 @@
-package Strategy;
-
-public interface Request {
-
-}

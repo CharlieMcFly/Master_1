@@ -1,9 +1,0 @@
-package Exceptions;
-import java.io.IOException;
-
-
-public class ServeurInitException extends Exception {
-
-	
-
-}

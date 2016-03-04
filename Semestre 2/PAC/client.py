@@ -216,7 +216,7 @@ class Main:
         if rep == '2' :
             self.action_helpdesk()
         if rep == '3' :
-            self.test()
+            self.action_police()
 
 # ACTION
 
@@ -280,7 +280,7 @@ class Main:
     def action_police_ticket(self, ticket):
         print(self.c.get("/bin/police_hq/ticket/"+ticket))
         input("Enter to continue")
-        # self.connection_kerberos(ticket)
+        self.connection_kerberos(ticket)
         self.test_request()
 
     def connection_kerberos(self, ticket):
@@ -307,13 +307,12 @@ class Main:
             serv = self.c.post('/service/hardware/hello', ticket=servtick, authenticator=auth2)
             print(serv)
 
+
     def test_request(self):
             #  REQUEST
-            a = {'method': 'GET', 'url': '/bin/echo'}
-            a = json.dumps(a)
+            a = '{"url": "/bin/get", "method": "GET"}'
             data = encrypt(a, "debug-me")
             res = self.c.post_raw('/bin/test-gateway', data)
-
             print(res)
 
 #TICKET
@@ -414,18 +413,15 @@ class Main:
         print(content)
         self.send_mail('osinski.marva', "Contrat signer", content)
 
-    def test(self):
-        # Clé = azerty
-        dic = {}
-        dic["skey"] = "wiAcQTkLDkSqLAolWuoACMAhzJ3MQIWdskFE5uPyuRwrmG+tx9q0OgbWRRkCNWhBMdb+J624A1Ksd0xMk7grY+aSUl+7b4AYxwcMuJe15ToQne5G+aC1i4E2u0Iakd8d4/QQQljllIuuaegutortr41zUfo5dM+NXKSi2p0QPYQ="
-        f = open("fichier_crypter.pem", "r")
-        dic["document"] = f.read()
-        to = self.c.get("/bin/crypto_helpdesk/ticket/198/attachment/client")['email']
-        subject = input("Entrer le sujet : ")
-        content = dic
-        self.send_mail(to, subject, content)
-
-
+    # def test(self):
+    #     # Clé = azerty
+    #     dic = {}
+    #     dic["skey"] = "wiAcQTkLDkSqLAolWuoACMAhzJ3MQIWdskFE5uPyuRwrmG+tx9q0OgbWRRkCNWhBMdb+J624A1Ksd0xMk7grY+aSUl+7b4AYxwcMuJe15ToQne5G+aC1i4E2u0Iakd8d4/QQQljllIuuaegutortr41zUfo5dM+NXKSi2p0QPYQ="
+    #     f = open("fichier_crypter.pem", "r")
+    #     dic["document"] = f.read()
+    #     to = self.c.get("/bin/crypto_helpdesk/ticket/317/attachment/client")['email']
+    #     subject = input("Entrer le sujet : ")
+    #     content = dic
 
 #  A FORMATTER
     # def dechiffre_doc(self, ticket):
@@ -488,6 +484,7 @@ class Main:
     #         f.write(self.c.get("/bin/finger/"+a+"/pk"))
     #     result = encrypt_key(content, "public_key_alice.pem")
     #     print(self.c.post('/bin/sendmail', to=a, subject=subject, content=result))
+
     def test(self):
         correct = True
 
@@ -508,7 +505,10 @@ class Main:
 
         status = []
 
+        print(len(cards_data))
+
         for card_number in cards_data :
+
 
             correct = True
 
@@ -527,10 +527,8 @@ class Main:
             signature = card_data['signature']
             challenge = card_data['challenge']
 
-
             #bank_challenge = card_data["challenge"]
             #bank_signature = card_data["signature"]
-
 
             """
             Création des certificats sur le disque
@@ -568,14 +566,16 @@ class Main:
             file_key5.write(card_publickey)
             file_key5.close()
 
-            """bb = base64.b64decode(bank_signature)
+            """
+            bb = base64.b64decode(bank_signature)
             file_key6 = open('bank_signature.bin', 'wb')
             file_key6.write(bb)
             file_key6.close()
 
             file_key7 = open('bank_publickey.pem', 'w')
             file_key7.write(bank_publickey)
-            file_key7.close()"""
+            file_key7.close()
+            """
 
             res_sign = verifSign(challenge, 'card_publickey.pem', 'card_signature.bin')
             if "OK" not in res_sign:
@@ -609,12 +609,9 @@ class Main:
                 print("Transaction failed : numero de carte différentes")
                 correct = False
 
-
             if "error" in res or "error" in res2 :
                 print("Transaction error pour openssl")
                 correct = False
-
-
 
             if correct == True:
                 print("Transaction correcte")
@@ -622,6 +619,8 @@ class Main:
             else:
                 status.append(False)
 
+
+        print("MAIL")
         message = {"identifier":identifiant,"statuses":status}
         res = self.c.post('/bin/sendmail', to=email, subject='fermeture ticket', content=message )
         print(res)

@@ -1,9 +1,0 @@
-package Strategy;
-
-public class RequestUSER implements Request{
-
-	public void doRequest() {
-
-	}
-
-}

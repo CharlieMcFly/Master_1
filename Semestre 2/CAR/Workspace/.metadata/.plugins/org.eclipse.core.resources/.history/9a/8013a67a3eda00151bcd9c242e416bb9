@@ -1,5 +1,0 @@
-package Exceptions;
-
-public class FTPRequestRetrException extends RequestException {
-
-}

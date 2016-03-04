@@ -1,8 +1,0 @@
-package Strategy;
-
-import Serveur.FtpRequest;
-
-public class RequestPASS implements Request{
-
-
-}
