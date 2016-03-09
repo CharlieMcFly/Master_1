@@ -3,7 +3,11 @@ declare function local:creationPlant($light, $root){
     where $plant/LIGHT/text() eq $light
     return
       <PLANT>
-        <COMMON> {$plant/COMMON} </COMMON>
+        {$plant/COMMON}
+        {$plant/BOTANICAL}
+        {$plant/ZONE}
+        {$plant/PRICE}
+        {$plant/AVAILABILITY}
       </PLANT>
 };
 
@@ -11,7 +15,7 @@ declare function local:creationPlant($light, $root){
 <CATALOG>
 {
 let $d := "plant_catalog.xml"
-for $light in distinct-values(doc($d)//LIGHT/text()),
+for $light in distinct-values(doc($d)//LIGHT/text())
   return
       <LIGHT>
         <EXPOSURE> {$light} </EXPOSURE>
