@@ -10,4 +10,4 @@ Feature: calculate the ideal weight of a man or a woman
     Examples: weight values
     	| tall    | sexe  | weight     |
 	    | 1.81	  | homme | 73.25      |
-	    | 2.00    | femme | 87.5       |
+	    | 1.69    | femme | 61.4       |

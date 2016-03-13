@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="696" maximized="true" width="1020" x="331" y="28">
 <fastViewData fastViewLocation="1024"/>
@@ -21,7 +21,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -30,10 +30,16 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestCWD.java" partName="RequestCWD.java" path="/home/charlie/Documents/Cours/Master_1/Semestre 2/CAR/Workspace/My_Ftp/src/Strategy/RequestCWD.java" title="RequestCWD.java" tooltip="My_Ftp/src/Strategy/RequestCWD.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/My_Ftp/src/Strategy/RequestCWD.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="911" selectionTopPixel="588"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
@@ -112,7 +118,7 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -264,7 +270,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.92196006" ratioLeft="508" ratioRight="43" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.44101635" ratioLeft="243" ratioRight="308" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -295,7 +301,14 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/My_Ftp/src/Strategy/RequestCWD.java"/>
+</editors>
+<item active="true" historyLabel="RequestCWD.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -315,11 +328,26 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestLISTTest.java" tooltip="My_Ftp/test/Stategy/RequestLISTTest.java">
-<persistable path="/My_Ftp/test/Stategy/RequestLISTTest.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestCWD.java" tooltip="My_Ftp/src/Strategy/RequestCWD.java">
+<persistable path="/My_Ftp/src/Strategy/RequestCWD.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Client.java" tooltip="My_Ftp/src/Client/Client.java">
+<persistable path="/My_Ftp/src/Client/Client.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestRETR.java" tooltip="My_Ftp/src/Strategy/RequestRETR.java">
+<persistable path="/My_Ftp/src/Strategy/RequestRETR.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataService.java" tooltip="My_Ftp/src/Serveur/DataService.java">
+<persistable path="/My_Ftp/src/Serveur/DataService.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FtpRequest.java" tooltip="My_Ftp/src/Serveur/FtpRequest.java">
 <persistable path="/My_Ftp/src/Serveur/FtpRequest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Serveur.java" tooltip="My_Ftp/src/Serveur/Serveur.java">
+<persistable path="/My_Ftp/src/Serveur/Serveur.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestLISTTest.java" tooltip="My_Ftp/test/Stategy/RequestLISTTest.java">
+<persistable path="/My_Ftp/test/Stategy/RequestLISTTest.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestCDUP.java" tooltip="My_Ftp/src/Strategy/RequestCDUP.java">
 <persistable path="/My_Ftp/src/Strategy/RequestCDUP.java"/>
@@ -344,21 +372,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestSTOR.java" tooltip="My_Ftp/src/Strategy/RequestSTOR.java">
 <persistable path="/My_Ftp/src/Strategy/RequestSTOR.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestRMD.java" tooltip="My_Ftp/src/Strategy/RequestRMD.java">
-<persistable path="/My_Ftp/src/Strategy/RequestRMD.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestRETR.java" tooltip="My_Ftp/src/Strategy/RequestRETR.java">
-<persistable path="/My_Ftp/src/Strategy/RequestRETR.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestQUIT.java" tooltip="My_Ftp/src/Strategy/RequestQUIT.java">
-<persistable path="/My_Ftp/src/Strategy/RequestQUIT.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestPORT.java" tooltip="My_Ftp/src/Strategy/RequestPORT.java">
-<persistable path="/My_Ftp/src/Strategy/RequestPORT.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RequestPASV.java" tooltip="My_Ftp/src/Strategy/RequestPASV.java">
-<persistable path="/My_Ftp/src/Strategy/RequestPASV.java"/>
 </file>
 </mruList>
 </workbench>

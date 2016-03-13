@@ -4,6 +4,7 @@ import urllib.parse
 import urllib.error
 import sys
 import base64
+import time
 from openssl import *
 from subprocess import Popen, PIPE
 # Ceci est du code Python v3.x (la version >= 3.4 est conseillÃ©e pour une
@@ -192,16 +193,22 @@ class Main:
 
     def connection_gritchie(self):
         print("Connection en cours ...")
+        # self.c.post('/bin/login', user="weissnat.junior", password="cache")
         self.c.post('/bin/login', user="gritchie", password="Vt*1fJsM7@")
         print(self.c.get("/home/gritchie"))
         self.afficher_menu()
 
     def connection_securise_gritchie(self):
+        # print("Connection en cours ...")
+        # challenge = self.c.get("/bin/login/CHAP")
+        # plaintext = "gritchie-"+challenge["challenge"]
+        # result = encrypt(plaintext, 'Vt*1fJsM7@', 'aes-128-cbc')
+        # print(self.c.post('/bin/login/CHAP', user="gritchie", response=result))
         print("Connection en cours ...")
         challenge = self.c.get("/bin/login/CHAP")
-        plaintext = "gritchie-"+challenge["challenge"]
-        result = encrypt(plaintext, 'Vt*1fJsM7@', 'aes-128-cbc')
-        print(self.c.post('/bin/login/CHAP', user="gritchie", response=result))
+        plaintext = "weissnat.junior-"+challenge["challenge"]
+        result = encrypt(plaintext, 'cache', 'aes-128-cbc')
+        print(self.c.post('/bin/login/CHAP', user="weissnat.junior", response=result))
         self.afficher_menu()
 
 # MENU
@@ -209,7 +216,7 @@ class Main:
     def afficher_menu(self):
         rep = None
         while rep == None :
-            print("----- Menu -----\n 1- Mail \n 2- Helpdesk \n 3- Police")
+            print("----- Menu -----\n 1- Mail \n 2- Helpdesk \n 3- Police \n 4- Hackademie \n 5- Fichier")
             rep = input("Entrez l'action choisis : ")
         if rep == '1' :
             self.action_mail()
@@ -217,19 +224,32 @@ class Main:
             self.action_helpdesk()
         if rep == '3' :
             self.action_police()
+        if rep == '4' :
+            self.action_hackademie()
+        if rep == '5' :
+            self.action_file()
+
+    def action_file(self):
+        print(self.c.get("/home/weissnat.junior"))
+        fichier = input("nom du fichier : ")
+        print(self.c.get("/home/weissnat.junior/"+fichier))
+        self.afficher_menu()
 
 # ACTION
+
+    def action_hackademie(self):
+        print(self.c.get("/bin/hackademy"))
+        self.afficher_menu()
+
 
     def action_police(self):
         print(self.c.get("/bin/police_hq"))
         input("Entrer to continue")
-        print("------ Menu Police -----\n 1- Lire Ticket")
+        print("------ Menu Police -----\n 1- Lire Ticket \n 2- Kerberos")
         a = input("Entrer un choix : ")
         if a == "1" :
             b = input("Entrer le numero de ticket :")
             self.action_police_ticket(b)
-
-
 
     def action_mail(self):
         print(self.c.get("/home/gritchie/INBOX"))
@@ -279,9 +299,30 @@ class Main:
 
     def action_police_ticket(self, ticket):
         print(self.c.get("/bin/police_hq/ticket/"+ticket))
-        input("Enter to continue")
-        self.connection_kerberos(ticket)
-        self.test_request()
+        a = input("---- Menu Ticket Police ----- \n 1- Kerberos \n 2- Mdp Perdu \n -------------\n" )
+        if a == '1':
+            self.connection_kerberos(ticket)
+        if a == '2':
+            self.chap_perdu(ticket)
+
+    def chap_perdu(self, ticket):
+        user = self.c.get("/bin/police_hq/ticket/"+ticket+"/attachment/username")
+        b = "a2a7b9e207c9436790d0eef2b392ad17"
+        c = "U2FsdGVkX1+g8eUBxeGlQzC/Iaz7zKjgITu46oFz1F5uMuDopwK50EnCA/cwDgHO\n3MK+EMQA8CnVrcHFUs2ETr4Kl8W8tA2dTzwNnm6EYi4=\n"
+        challenge = user+"-"+b
+        a = self.c.get("/share/words")
+        a = a.split("\n")
+        end = 'aucun'
+        for value in a :
+            d="charlie"
+            try :
+                d = decrypt(c, value)
+                print("yo :" +value)
+            except Exception:
+                if(d == c or d in c or d is c):
+                    print("WIN : " +value)
+
+        print(end)
 
     def connection_kerberos(self, ticket):
             # Authentification service
@@ -306,14 +347,74 @@ class Main:
             auth2 = encrypt(e2, cle)
             serv = self.c.post('/service/hardware/hello', ticket=servtick, authenticator=auth2)
             print(serv)
+            self.request(cle, '/service/hardware/status')
 
 
-    def test_request(self):
+    def request(self, cle, url ):
             #  REQUEST
-            a = '{"url": "/bin/get", "method": "GET"}'
-            data = encrypt(a, "debug-me")
-            res = self.c.post_raw('/bin/test-gateway', data)
-            print(res)
+            # Dictionnaire
+            b = input("Quel type de requete ? : ")
+            if b == 'GET':
+                dic =  {'method': 'GET', 'url': url}
+            if b == 'POST':
+                dic = {'method' : 'POST', 'url' : url, 'args' : {'action' : 'unlock'}}
+            # Encoder en JSON
+            a = json.dumps(dic)
+            # Encrypter avec la clé de la passerelle
+            data = encryptSansBase64(a, cle)
+            # Envoie avec post raw
+            res = self.c.post_raw('/service/hardware/request', data)
+            result = decryptSansBase64(res, cle)
+            print(result)
+            a = input("----- Menu Kerberos -----\n 1- Refresh \n 2- Help \n 3- Action \n 4- Emergency \n ------------ \n")
+            if a == '1' :
+                self.request(cle, '/service/hardware/status')
+            if a == '2' :
+                self.request(cle, '/service/hardware/action')
+            if a == '3' :
+                self.request_action(cle)
+            if a == '4' :
+                self.emergency(cle)
+
+    def request_action(self, cle):
+        try :
+            item = input("Quel action ? : ")
+            b = input("Quel type de requete ? : ")
+            if b == 'GET':
+                dic =  {'method': 'GET', 'url': '/service/hardware/action/'+item }
+            if b == 'POST':
+                action = input('Quel param ? : ')
+                if item == 'SERVER-GROUP' or item == 'SERVER' :
+                    num = input("n ? : ")
+                    dic = {'method' : 'POST', 'url' : '/service/hardware/action/'+item, 'args' : {'action' : action, 'n':num}}
+                else :
+                    dic = {'method' : 'POST', 'url' : '/service/hardware/action/'+item, 'args' : {'action' : action}}
+            # Encoder en JSON
+            a = json.dumps(dic)
+            # Encrypter avec la clé de la passerelle
+            data = encryptSansBase64(a, cle)
+            # Envoie avec post raw
+            res = self.c.post_raw('/service/hardware/request', data)
+            result = decryptSansBase64(res, cle)
+            print(result)
+            input("Entrer pour continuer ...")
+            self.request(cle, '/service/hardware/status')
+        except Exception as e:
+            m = decryptSansBase64(e.msg, cle)
+            print(m)
+
+    def emergency(self, cle):
+        url = '/service/hardware/911'
+        action = input('Quel param ? : ')
+        dic = {'method' : 'POST', 'url' : url , 'args' : {'reason' : action}}
+        # Encoder en JSON
+        a = json.dumps(dic)
+        # Encrypter avec la clé de la passerelle
+        data = encryptSansBase64(a, cle)
+        # Envoie avec post raw
+        res = self.c.post_raw('/service/hardware/request', data)
+        self.request(cle, '/service/hardware/status')
+
 
 #TICKET
     def action_ticket(self, n):

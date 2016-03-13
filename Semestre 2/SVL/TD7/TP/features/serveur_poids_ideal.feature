@@ -6,7 +6,7 @@ Feature: calcul the ideal weight of a man or a woman
 
    Scenario: the value is correctly displayed
       Given I am on the calculator page
-      When I enter my tall value and validate
+      When I enter my tall and my sexevalue and validate
       Then I can see my ideal weight value
 
    @todo

@@ -1,0 +1,40 @@
+<xsd:schema 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.expression.org"
+	xmlns="http://www.expression.org"
+	elementFormDefault="qualified">
+	<xsd:simpleType name="type-operation">
+		<xsd:restriction base="xsd:string">
+			<xsd:enumeration value="+"/>
+			<xsd:enumeration value="-"/>
+			<xsd:enumeration value="*"/>
+			<xsd:enumeration value="/"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="type-var">
+		<xsd:restriction base="xsd:Name">
+			<xsd:pattern value="[A-Z]"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:group name="type-expression">
+		<xsd:choice>
+			<xsd:element name="cons" type="xsd:integer"/>
+			<xsd:element name="var" type="type-var"/>
+			<xsd:element ref="op"/>
+		</xsd:choice>
+	</xsd:group>
+	<xsd:element name="op">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:group ref="type-expression"/>
+				<xsd:group ref="type-expression"/>
+			</xsd:sequence>
+			<xsd:attribute name="val" type="type-operation"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="expr">
+		<xsd:complexType>
+			<xsd:group ref="type-expression"/>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

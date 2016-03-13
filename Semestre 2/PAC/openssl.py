@@ -52,6 +52,24 @@ def encrypt(plaintext, passphrase, cipher='aes-128-cbc'):
 
     return stdout.decode()
 
+def encryptSansBase64(plaintext, passphrase, cipher='aes-128-cbc'):
+    pass_arg = 'pass:{0}'.format(passphrase)
+    args = ['openssl', 'enc', '-' + cipher, '-pass', pass_arg]
+
+    if isinstance(plaintext, str):
+        plaintext = plaintext.encode('utf-8')
+
+    pipeline = Popen(args, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    stdout, stderr = pipeline.communicate(plaintext)
+
+    error_message = stderr.decode()
+    if error_message != '':
+        raise OpensslError(error_message)
+
+    return stdout
+
+
 def encrypt_key(plaintext, file_key, cipher='rsautl'):
 
     args = ['openssl', cipher, '-encrypt', '-inkey', file_key, '-pubin']
@@ -74,6 +92,36 @@ def decrypt(plaintext, passphrase, cipher='aes-128-cbc'):
     # openssl rc2-ofb -d -a -in Fichier_chiffre -pass pass:"ijw_3tX75y" -out secrets.txt.new
     pass_arg = 'pass:{0}'.format(passphrase)
     args = ['openssl', 'enc', '-d', '-'+cipher,'-base64', '-pass', pass_arg]
+
+    # si le message clair est une chaine unicode, on est obligé de
+    # l'encoder en bytes() pour pouvoir l'envoyer dans le pipeline vers
+    # openssl
+    if isinstance(plaintext, str):
+        plaintext = plaintext.encode('utf-8')
+
+    # ouvre le pipeline vers openssl. Redirige stdin, stdout et stderr
+    #    affiche la commande invoquée
+    #    print('debug : {0}'.format(' '.join(args)))
+    pipeline = Popen(args, stdin=PIPE, stdout=PIPE, stderr=PIPE)
+
+    # envoie plaintext sur le stdin de openssl, récupère stdout et stderr
+    stdout, stderr = pipeline.communicate(plaintext)
+
+    # si un message d'erreur est présent sur stderr, on arrête tout
+    # attention, sur stderr on récupère des bytes(), donc on convertit
+    error_message = stderr.decode()
+    if error_message != '':
+        raise OpensslError(error_message)
+
+    # OK, openssl a envoyé le chiffré sur stdout, en base64.
+    # On récupère des bytes, donc on en fait une chaine unicode
+    return stdout.decode()
+
+def decryptSansBase64(plaintext, passphrase, cipher='aes-128-cbc'):
+
+    # openssl rc2-ofb -d -a -in Fichier_chiffre -pass pass:"ijw_3tX75y" -out secrets.txt.new
+    pass_arg = 'pass:{0}'.format(passphrase)
+    args = ['openssl', 'enc', '-d', '-'+cipher, '-pass', pass_arg]
 
     # si le message clair est une chaine unicode, on est obligé de
     # l'encoder en bytes() pour pouvoir l'envoyer dans le pipeline vers

@@ -9,7 +9,7 @@ Feature: transforming a temperature in celsius into en temperature in farhenheit
       When I enter a celcius value and validate
       Then I can see the corresponding value in farhenheit
 
-   @todo   
+   @todo
    Scenario: the convertor refuses the wrong data
       Given I am on the convertor page
       When I enter a non floating value

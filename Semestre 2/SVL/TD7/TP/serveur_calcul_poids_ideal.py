@@ -1,5 +1,5 @@
 import cherrypy
-import poids_ideal
+from poids_ideal import *
 
 PAGE_INDEX = """
 <html>
@@ -41,7 +41,7 @@ PAGE_RESULTAT_ERRONE = """
 </html>
 """
 
-class MonServeur:(object):
+class MonServeur(object):
 
         @cherrypy.expose
         def index(self):
@@ -69,5 +69,5 @@ class MonServeur:(object):
         def error(self, message):
             return PAGE_RESULTAT_ERRONE.format(message)
 
-    if __name__ == '__main__':
-        cherrypy.quickstart(PoidsIdeal())
+if __name__ == '__main__':
+    cherrypy.quickstart(MonServeur())
